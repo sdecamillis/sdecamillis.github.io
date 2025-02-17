@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="75"
+   height="20"
+   role="img"
+   aria-label="Wolfram"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="Wolfram.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:export-filename="Wolfram.png"
+   inkscape:export-xdpi="360"
+   inkscape:export-ydpi="360"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7">
+      <g
+         id="g8">
+        <rect
+           width="75"
+           height="20"
+           rx="3"
+           fill="#ffffff"
+           id="rect7"
+           ry="3"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8">
+      <g
+         id="g9">
+        <rect
+           width="75"
+           height="20"
+           rx="3"
+           fill="#ffffff"
+           id="rect8"
+           ry="3"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="8.04"
+     inkscape:cx="37.5"
+     inkscape:cy="9.4527363"
+     inkscape:window-width="1392"
+     inkscape:window-height="1207"
+     inkscape:window-x="1130"
+     inkscape:window-y="63"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <title
+     id="title1">Wolfram</title>
+  <linearGradient
+     id="s"
+     x2="0"
+     y2="38.729833"
+     gradientTransform="scale(1.9364917,0.51639778)"
+     x1="0"
+     y1="0"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0"
+       stop-color="#bbb"
+       stop-opacity=".1"
+       id="stop1" />
+    <stop
+       offset="1"
+       stop-opacity=".1"
+       id="stop2" />
+  </linearGradient>
+  <rect
+     width="0"
+     height="20"
+     fill="#555555"
+     id="rect3"
+     x="0"
+     y="0" />
+  <rect
+     x="0"
+     width="75"
+     height="20"
+     fill="#ffffff"
+     id="rect4"
+     y="0"
+     clip-path="url(#clipPath8)" />
+  <rect
+     width="75"
+     height="20"
+     fill="url(#s)"
+     id="rect5"
+     style="fill:url(#s)"
+     x="0"
+     y="0"
+     clip-path="url(#clipPath7)" />
+  <text
+     aria-hidden="true"
+     x="465"
+     y="150"
+     fill="#cccccc"
+     fill-opacity="0.3"
+     transform="scale(0.1)"
+     textLength="470"
+     id="text5"
+     lengthAdjust="spacing"
+     style="font-size:110px;font-family:Verdana, Geneva, 'DejaVu Sans', sans-serif;text-anchor:middle;text-rendering:geometricPrecision">Wolfram</text>
+  <text
+     x="465"
+     y="140"
+     transform="scale(0.1)"
+     fill="#333333"
+     textLength="470"
+     id="text6"
+     lengthAdjust="spacing"
+     style="font-size:110px;font-family:Verdana, Geneva, 'DejaVu Sans', sans-serif;text-anchor:middle;text-rendering:geometricPrecision">Wolfram</text>
+  <path
+     fill-rule="nonzero"
+     fill="#dd1100"
+     fill-opacity="1"
+     d="m 16.729166,9.9999995 1.927084,-2.161458 -2.833333,-0.619792 0.291667,-2.885416 -2.656251,1.166667 -1.458333,-2.5 -1.463542,2.5 -2.6510415,-1.161459 0.286458,2.880208 -2.828125,0.614584 1.927084,2.166666 -1.927084,2.1614595 2.828125,0.614583 -0.291666,2.885417 L 10.536459,14.5 12,17 l 1.458334,-2.5 2.65625,1.161459 -0.286459,-2.880208 2.828125,-0.619792 z m 0.9375,1.6302085 -1.671874,-0.572916 -1.109376,-1.4427085 1.473958,0.5520835 z M 17.932292,8.0729175 16.416666,9.7760415 14.625,9.1093745 15.703125,7.5885415 Z m -2.5,-0.770835 -0.895834,1.270835 0.05208,-1.843751 1.041667,-1.411458 z m -1.927084,-1.401041 1.802084,-0.791667 -1.031251,1.390626 -1.718749,0.609374 z m 0.692709,1.036459 -0.05729,2.130207 -1.947918,0.651042 V 7.6510415 Z M 12,3.7604165 13.151041,5.7291665 12,7.1979175 10.848958,5.7291665 Z m -1.505208,2.140625 0.947916,1.208333 -1.7187495,-0.609374 -1.03125,-1.390626 z m 1.3125,1.75 v 2.067708 l -1.9479175,-0.651042 -0.05729,-2.130207 z m -2.3958335,-0.921875 0.05208,1.843751 -0.895833,-1.270835 -0.197916,-1.984374 z m -3.34375,1.343751 2.229166,-0.484376 1.072918,1.520833 -1.786459,0.661459 z m 1.572917,2.0885405 1.473959,-0.5468745 -1.109376,1.4427075 -1.671875,0.567708 z m -1.223958,1.843749 1.708333,-0.583333 1.776041,0.520833 -1.526041,0.489584 z m 1.916666,3.041667 0.229167,-2.276041 1.8124995,-0.572916 0.04687,1.93229 z M 10.484374,11.713541 8.4427085,11.114583 9.7447925,9.4270825 11.6875,10.083333 Z m 1.322918,4.197917 -1,-1.713541 -0.03646,-1.614584 1.036459,1.515625 z M 10.796874,11.942707 12,10.3125 13.203125,11.942707 12,13.697917 Z m 2.395834,2.25521 -1,1.713541 v -1.8125 l 1.036458,-1.515625 z m -0.885416,-4.114584 1.947916,-0.6562505 1.296874,1.6875005 -2.041666,0.598958 z m 1.270833,4.046874 0.04167,-1.93229 1.817708,0.572916 0.229166,2.276041 z M 15.625,12.432291 14.093749,11.942707 15.875,11.421874 l 1.708333,0.583333 z m 0,0"
+     id="path268"
+     style="stroke-width:1.33333" />
+</svg>

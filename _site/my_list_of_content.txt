@@ -1,0 +1,58 @@
+Research
+
+- Microscopy and nanomaterials
+	- Non-linear response
+	- Super-resolution miscoscopy
+	- Super-resolution in biology
+
+- Ultrafast chemistry
+	- Molecular relaxation
+	- Charge migration
+
+- Plasma Physics
+	- Magneto-sphere dynamics
+
+R&D
+
+- Optical imaging
+	- Super-resolution microscopy
+	- 3D imaging of diamonds
+
+- Ultrafast mass spectroscopy
+	- Pump-probe experiments
+	- Ultrashort VUV pulses
+
+- CMOS arrays
+	- Intra-pixel response
+	- Ion radiation exposure
+
+- Sensing
+	- Hydrocarbon detection
+
+Analytics
+
+- Optical distortion
+	- Multi-variable regression
+	- Response modelling
+
+- De-excitation processes in biomolecules
+	- multi-variable regression
+
+- Ultrafast charge oscillations
+	- Single-peak integration
+	- Time-windowed spectral analysis
+
+- Structured illumination microscopy
+	- 2D Fourier transform
+	- Spectral domain manipulation
+
+- Interferometric patterns to charactise CMOS pixels
+	- 2D Fourier transform
+	- Deconvolution theorem
+	- Random noise generation
+
+- Inclusion mapping in crystals
+	- Multi-dimensional data visualisation
+	
+- Monitoring electrical consumption
+	- 

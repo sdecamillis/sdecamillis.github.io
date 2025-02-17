@@ -1,0 +1,9 @@
+### Super-resolution microscopy
+
+Light cannot be focused down indefinitively, ultimately limited by the laws of quantum mechanics. However, in the past few decades, clever solutions have been developped to circumvent such limit and observe objects as small as few tens of nanometres.
+
+STimulated Excitation Depletion microscopy (STED) is one of the most successful fully-optical techniques achieving super-resolution imaging. Its strength relies on combining two different laser beams which can either switch on or off the emission of contrast agents. With such arrangement, the imaging accuracy can be enhanced by shaping the light in appropriate Laguerre-Gaussian profiles.
+
+Major efforts have been dedicated to extend the repeatability of the STED imaging, as the common contrast agent (fluorophores) progressively fades while scanning the same speciment a few times. Up-convertion nanoparticles (UCNPs) are the most promising alternative, thanks to their bright emission and photo-stability.
+
+This project explored the non-linear optical properties of UCNPs to push super-resolution imaging beyond its current capabilities.

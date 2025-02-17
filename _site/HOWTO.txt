@@ -1,0 +1,19 @@
+To run a local copy, make sure that the Gemfile and Gemfile.lcok exist. They are locally generated files to run the jekyll server using ruby.
+
+If they exist, then simply run these commands:
+
+	cd /path/to/directory/
+	bundle exec jekyll serve
+
+The website will then be accessible at the localhost address:
+
+	http://localhost:4000/
+
+
+
+
+
+To run online website:
+	- create (or update) the GitHub repository
+	- rename the repository as "[NAME].github.io"
+	- make the repository public
