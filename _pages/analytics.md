@@ -17,6 +17,25 @@ toc_icon: "gear"
 toc_sticky: true
 ---
 
+### Optical distortion
+
+![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
+![NumPy](https://img.shields.io/badge/NumPy-aaa?logo=numpy&logoColor=013243)
+![SciPy](https://img.shields.io/badge/SciPy-aaa?logo=scipy&logoColor=8CAAE6)
+![Pandas](https://img.shields.io/badge/Pandas-aaa?logo=pandas&logoColor=150458)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-aaa?logo=geopandas&logoColor=139C5A)
+
+Leveraging the power of scientific practice to meet humanitarian needs can bring unparalleled satisfaction. I had the opportunity of doing so during a project concerned with [water safety in Timor-Leste](/community/#water-safety-in-timor-leste).
+
+Combining qualitative and quantitative data from three survey points over 18 months, I could appraise the health benefits (both direct and indirect), identify the main distribution priorities, and explore the secondary socio-economic and environmental implications from the installation of ceramic water filters in households and schools.
+
+>![Survey data on water safety](/assets/analytics/survey.jpg)
+>*A selection of indicators from the survey data: on water sterilization methods (top row), opinion on the quality of filtered water, and on the health impact of consuming filtered water over time.*
+{: style="width: 90%; font-size: 0.9rem;"}
+
+Among the adopted techniques:
+- Linear and non-linear regression
+- Hypothesis testing
 
 
 ### Survey data on water safety
