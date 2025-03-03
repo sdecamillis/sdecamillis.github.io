@@ -22,42 +22,35 @@ toc_sticky: true
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
 ![NumPy](https://img.shields.io/badge/NumPy-aaa?logo=numpy&logoColor=013243)
 ![SciPy](https://img.shields.io/badge/SciPy-aaa?logo=scipy&logoColor=8CAAE6)
-![Pandas](https://img.shields.io/badge/Pandas-aaa?logo=pandas&logoColor=150458)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-aaa?logo=geopandas&logoColor=139C5A)
 
 Leveraging the power of scientific practice to meet humanitarian needs can bring unparalleled satisfaction. I had the opportunity of doing so during a project concerned with [water safety in Timor-Leste](/community/#water-safety-in-timor-leste).
 
 Combining qualitative and quantitative data from three survey points over 18 months, I could appraise the health benefits (both direct and indirect), identify the main distribution priorities, and explore the secondary socio-economic and environmental implications from the installation of ceramic water filters in households and schools.
 
->![Survey data on water safety](/assets/analytics/survey.jpg)
->*A selection of indicators from the survey data: on water sterilization methods (top row), opinion on the quality of filtered water, and on the health impact of consuming filtered water over time.*
-{: style="width: 90%; font-size: 0.9rem;"}
+>![Optical distortion and correction model](/assets/analytics/axial_distortion_exp_model.png)
+>*Description of the image.*
+{: style="width: 60%; font-size: 0.9rem;"}
 
 Among the adopted techniques:
 - Linear and non-linear regression
 - Hypothesis testing
 
 
-### Survey data on water safety
+### De-excitation processes in biomolecules
 
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
 ![NumPy](https://img.shields.io/badge/NumPy-aaa?logo=numpy&logoColor=013243)
-![SciPy](https://img.shields.io/badge/SciPy-aaa?logo=scipy&logoColor=8CAAE6)
-![Pandas](https://img.shields.io/badge/Pandas-aaa?logo=pandas&logoColor=150458)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-aaa?logo=geopandas&logoColor=139C5A)
 
 Leveraging the power of scientific practice to meet humanitarian needs can bring unparalleled satisfaction. I had the opportunity of doing so during a project concerned with [water safety in Timor-Leste](/community/#water-safety-in-timor-leste).
 
 Combining qualitative and quantitative data from three survey points over 18 months, I could appraise the health benefits (both direct and indirect), identify the main distribution priorities, and explore the secondary socio-economic and environmental implications from the installation of ceramic water filters in households and schools.
 
->![Survey data on water safety](/assets/analytics/survey.jpg)
->*A selection of indicators from the survey data: on water sterilization methods (top row), opinion on the quality of filtered water, and on the health impact of consuming filtered water over time.*
-{: style="width: 90%; font-size: 0.9rem;"}
+>![De-excitation timescales](/assets/analytics/de-excitation_fit.jpg)
+>*Description of the image.*
+{: style="width: 60%; font-size: 0.9rem;"}
 
 Among the adopted techniques:
-- Correlation evaluation
-- Principal component analysis
-- Hypothesis testing
+- Multi-variable regression
 
 
 ### Quantum tomography
@@ -155,16 +148,17 @@ Analytical methods adopted:
 - Time-frequency analysis
 
 
-### Road safety in the ACT
+### Electricity consumption
 
-![SQL](https://img.shields.io/badge/SQL-fff?logo=postgresql&logoColor=4169E1)
-![ArcGIS](https://img.shields.io/badge/ArcGIS-999?logo=arcgis&logoColor=2C7AC3)
+![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
+![NumPy](https://img.shields.io/badge/NumPy-aaa?logo=numpy&logoColor=013243)
+![Pandas](https://img.shields.io/badge/Pandas-aaa?logo=pandas&logoColor=150458)
 
 In this project, I combined local road infrastructue network data in the Australian Capital Territory (ACT) with public domain reports on cycling accidents. By merging databases and using geometry integration strategies, I mapped out sensitive safety hazard points that could inform future governance decisions.
 
->![Sensitivity enhancement](/assets/analytics/crashes.jpg)
->*A heatmap of cyclist crash density (pixel radius: 10 m, search radius: 200 m) highlighting the risk of accidents in proximity of major traffic intersection nodes.*
-{: style="width: 70%; font-size: 0.9rem;"}
+>![Estimation of electricity bill](/assets/analytics/electricity_bill.png)
+>*Description of the image.*
+{: style="width: 80%; font-size: 0.9rem;"}
 
 Analytical methods adopted:
 - Coordinate system projection
