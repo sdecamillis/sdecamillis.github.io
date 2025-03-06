@@ -113,9 +113,12 @@ References:
 ## Plasma Physics
 
 
-### Dynamics at the magneto-sphere
+### Dynamics at the magnetosphere
 
-Paragraph on charge migration
+
+The magnetic field sourrounding the Earth acts as powerful shield against the constant steam of charged particles emitted by the Sun, which would otherwise directly impact our life on Earth. The dynamics of such solar wind at the boundary of the magnetosphere is of primary interest for space plasma modeling, as it involves a wide range of spatial and temporal scales.
+
+This project focused on extending the classic magneto-hydrodynamic model of the plasma fluid evolution to include anysotropic variations of particle dynamics, either parallel or perpendicular to the field lines. This model enabled the study of several dynamic processes occurring at the magnetosphere and their competing evolution depending on the plasma conditions.
 
 >![Plasma dynamics](/assets/research/plasma_dynamics.png)
 >*DESCRIPTION OF THE IMAGE*
