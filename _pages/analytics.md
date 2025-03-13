@@ -38,8 +38,7 @@ Among the adopted techniques:
 
 ### De-excitation processes in biomolecules
 
-![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
-![NumPy](https://img.shields.io/badge/NumPy-aaa?logo=numpy&logoColor=013243)
+![Matlab]https://img.shields.io/badge/MATLAB%C2%AE-orange?style=plastic&amp)
 
 Leveraging the power of scientific practice to meet humanitarian needs can bring unparalleled satisfaction. I had the opportunity of doing so during a project concerned with [water safety in Timor-Leste](/community/#water-safety-in-timor-leste).
 
