@@ -116,12 +116,12 @@ References:
 ### Dynamics at the magnetosphere
 
 
-The magnetic field sourrounding the Earth acts as powerful shield against the constant steam of charged particles emitted by the Sun, which would otherwise directly impact our life on Earth. The dynamics of such solar wind at the boundary of the magnetosphere is of primary interest for space plasma modeling, as it involves a wide range of spatial and temporal scales.
+The magnetic field sourrounding the Earth acts as powerful shield against the constant stream of charged particles emitted by the Sun, which would otherwise directly impact our life on Earth. The dynamics of such solar wind at the boundary of the magnetosphere is of primary interest for space plasma modeling, as it involves a wide range of spatial and temporal scales.
 
-This project focused on extending the classic magneto-hydrodynamic model of the plasma fluid evolution to include anysotropic variations of particle dynamics, either parallel or perpendicular to the field lines. This model enabled the study of several dynamic processes occurring at the magnetosphere and their competing evolution depending on the plasma conditions.
+This project focused on extending the classic magneto-hydrodynamic model of the plasma fluid evolution to include anysotropic variations of particle dynamics, either parallel or perpendicular to the field lines. This model enabled the study of several non-linear processes occurring at the magnetosphere and their competing evolution depending on the dynamic regime of the plasma.
 
 >![Plasma dynamics](/assets/research/plasma_dynamics.png)
->*DESCRIPTION OF THE IMAGE*
+>*The shear flow of plasma at the boundary of the magnetosphere drives the generation of vortices (non-linear Kelvin-Helmholtz instability), which provides the conditions for secondary magneto-fluid instability.*
 {: style="width: 60%; font-size: 0.9rem;"}
 
 References:

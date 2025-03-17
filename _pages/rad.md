@@ -23,13 +23,13 @@ toc_sticky: true
 
 ### 3D optical coherent tomography
 
-Mapping inclusions inside a high-refractive materials such as gemstones is not a simple task: inclusions often differ from the bulk volume only by its amorphous structure and refraction increases the complexity of any optical investigation. Our team SmartLight has validated a novel solution able to accurately locate impurities and defects present inside the sample, without the application of any refractive index matching medium.
+Mapping inclusions inside a high-refractive material such as a gemstone is not simple task. High-energy imaging struggles to detect inclusions, as they are often made of the same bulk material. Visible and infrared imaging are more suitable candidates due to their sensitivity to matter composition and structure. However, at lower photon-energy the effects of refraction significantly increase the complexity of any optical investigation. 
 
-For a complete reconstruction of the volumetric information, the sample is optically scanned using the Optical Coherent Tomography (OCT) technique. Several 3D images are acquired from different directions, covering almost the full solid angle of a sphere.
+Our team SmartLight has validated a novel solution able to accurately locate defects present inside the sample, without the application of any refractive index matching medium. For a complete reconstruction of the volumetric information, the sample is optically scanned using the Optical Coherent Tomography (OCT) technique. Several 3D images are acquired from different directions, covering almost the full solid angle of a sphere.
 
-My contributions that significantly impacted the success of this instrument:
-- simplifying the design and manufacturing process of the fibre-optic interferometer to minimise losses and improve optical stability,
-- establishing alignment requirements and calibration protocols, to facilitate system installation and remote maintenance,
+Here are my majour contributions that contributed to the success deployment and ongoing operation of six machines overseas:
+- simplifying the design and manufacturing of the fibre-optic interferometer to minimise losses and improve optical stability,
+- establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance,
 - modelling the residual optical distortion through numerical simulations in Zemax and experimental measurements.
 
 >![OCT interferometer](/assets/rad/oct_scanning_system.png)
