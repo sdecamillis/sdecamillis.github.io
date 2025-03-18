@@ -27,7 +27,7 @@ Research in versitile nanoprobes is key to enable majour advances in optical mic
 
 Major efforts have been dedicated to extend the repeatability of the STED imaging, as the common contrast agents (fluorophores) progressively fade while scanning repeatitively the same speciment. Up-convertion nanoparticles (UCNPs) are the most promising alternative, thanks to their bright emission and photo-stability.
 
-In this project, I optically characterised a specific class of nanoparticles demonstrating how the particle composition and structure directly affect their emission properties. At suitable conditions, these nanoparticles can enable LED-driver imaging.
+In this project, I optically characterised a specific class of nanoparticles demonstrating how the particle composition and structure directly affect their emission properties. At suitable conditions, these nanoparticles can enable LED-driven imaging.
 
 >![Characteristic emission of UCNPs](/assets/research/ucnps.png)
 >*DESCRIPTION OF THE IMAGE*
@@ -45,7 +45,7 @@ Light cannot be focused down indefinitively, ultimately limited by the laws of q
 
 In the quest to make super-resolution microscopy easier and more applicable, Up-convertion nanoparticles (UCNPs) have demonstrated great potentials. They have proved to be suitable for *STimulated Excitation Depletion* (STED) microscopy and *Super-linear Excitation-Emission* (SEE) microscopy, providing enhanced photostability and spectral selectivity compared to the common contrast agents. 
 
-This project explored the non-linear optical properties of UCNPs to push their performance beyond their current limits. With the suitable excitation conditions and particle composition, these nanoprobes can enable simultaneous STED and SEE modalities, further enhancing the resolution performance. These results were successfully applied in a biological environment.
+This project explored the non-linear optical properties of UCNPs to push their performance beyond their current limits. With the suitable excitation conditions and particle composition, these nanoprobes can enable simultaneous STED and SEE modalities, further enhancing the imaging resolution. These results were successfully applied in a biological environment.
 
 >![STED-SEE microscopy in cell](/assets/research/ucnp_in_cells.png)
 >*DESCRIPTION OF THE IMAGE*

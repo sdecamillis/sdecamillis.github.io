@@ -27,13 +27,13 @@ Mapping inclusions inside a high-refractive material such as a gemstone is not s
 
 Our team SmartLight has validated a novel solution able to accurately locate defects present inside the sample, without the application of any refractive index matching medium. For a complete reconstruction of the volumetric information, the sample is optically scanned using the Optical Coherent Tomography (OCT) technique. Several 3D images are acquired from different directions, covering almost the full solid angle of a sphere.
 
-Here are my majour contributions that contributed to the success deployment and ongoing operation of six machines overseas:
+My main contributions are focused on the R&D work to deliver commercially viable scanning systems for 3D crystal mapping. My projects included:
 - simplifying the design and manufacturing of the fibre-optic interferometer to minimise losses and improve optical stability,
 - establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance,
 - modelling the residual optical distortion through numerical simulations in Zemax and experimental measurements.
 
 >![OCT interferometer](/assets/rad/oct_scanning_system.png)
->*DESCRIPTION OF THE IMAGE*
+>*The main assembly of the scanning instrument combines a fully-spliced optical interferometer with a multi-stage rotating gantry.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 References:
@@ -43,10 +43,11 @@ References:
 
 ### Super-resolution confocal systems
 
+- UCNPs 
 About dual-beam confocal microscope
 
 >![Dual-beam optical setup](/assets/rad/sted_setup.jpg)
->*DESCRIPTION OF THE IMAGE*
+>*Table-top confocal microscope combining a 976 nm Gaussian beam as excitation laser *
 {: style="width: 65%; font-size: 0.9rem;"}
 
 References:
