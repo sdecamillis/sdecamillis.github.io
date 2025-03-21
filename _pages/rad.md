@@ -30,10 +30,10 @@ Our team SmartLight has validated a novel solution able to accurately locate def
 My main contributions are focused on the R&D work to deliver commercially viable scanning systems for 3D crystal mapping. My projects included:
 - simplifying the design and manufacturing of the fibre-optic interferometer to minimise losses and improve optical stability,
 - establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance,
-- modelling the residual optical distortion through numerical simulations in Zemax and experimental measurements.
+- modelling the residual optical distortion with numerical simulations in Zemax and experimental measurements.
 
 >![OCT interferometer](/assets/rad/oct_scanning_system.png)
->*The main assembly of the scanning instrument combines a fully-spliced optical interferometer with a multi-stage rotating gantry.*
+>*First prototype of the OCT scanning system: a fibre-spliced broadband interferometer is coupled with a multi-axis gantry system allowing the full sample rotation, the displacement of the focal plane and height adjustment.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 References:
@@ -43,8 +43,12 @@ References:
 
 ### Super-resolution confocal systems
 
+<<<<<<< Updated upstream
 - UCNPs 
 About dual-beam confocal microscope
+
+Upconversion nanoparticles (UCNPs) represent a valid alternative to florophores in nano-technology applications. An interesting type of UCNPs, including Yb and Tm doping elements, has enabled a wide range of  
+provides unprencedented non-linear emission processes 
 
 >![Dual-beam optical setup](/assets/rad/sted_setup.jpg)
 >*Table-top confocal microscope combining a 976 nm Gaussian beam as excitation laser *
