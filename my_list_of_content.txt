@@ -12,7 +12,7 @@ Research
 - Plasma Physics
 	- Magneto-sphere dynamics
 
-R&D
+R&D (or alternatively "instrumentation"?)
 
 - Optical imaging
 	- Super-resolution microscopy
