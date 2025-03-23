@@ -10,9 +10,6 @@ The website will then be accessible at the localhost address:
 	http://localhost:4000/
 
 
-
-
-
 To run online website:
 	- create (or update) the GitHub repository
 	- rename the repository as "[NAME].github.io"
@@ -20,4 +17,16 @@ To run online website:
 
 
 
-Test github
+These are the only files you need to edit:
+
+./_config.yml
+./assets/DeCamillis_CV.pdf
+./assets/DeCamillis_photo.png
+./_data/navigation.yml
+
+And this is where I store the contents of my website, feel free to use a similar approach:
+
+./_pages/*
+./assets/analytics/*   (./assets_offline/ version for draft files, excluded in git)
+./assets/community/*   (./assets_offline/ version for draft files, excluded in git)
+./assets/research/*    (./assets_offline/ version for draft files, excluded in git)
