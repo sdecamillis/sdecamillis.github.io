@@ -1,8 +1,8 @@
 ---
-title: "R&D"
+title: "Instrumentation"
 layout: single
 sitemap: true
-permalink: /rad/
+permalink: /instrumentation/
 author_profile: true
 header:
   overlay_color: "#000"
@@ -12,7 +12,7 @@ header:
     - label: "Download CV"
       url: "assets/DeCamillis_CV.pdf"
 toc: true
-toc_label: "R&D"
+toc_label: "Instrumentation"
 toc_icon: "gear"
 toc_sticky: true
 ---

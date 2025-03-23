@@ -26,7 +26,7 @@ toc_sticky: true
 Upconversion nanoparticles (UCNPs) are a unique class of optical nanomaterials doped with lanthanide ions. 
 Thanks to their excellent and flexible luminescence performance, they enabled significant advances in a broad range of applications, such as photo-activated drug delivery, IR vision extension, security ink, and [super-resolution imaging](/research/#super-resolution-imaging).
 
-In this project, I characterized the luminescence response of a specific class of nanoparticles demonstrating how the right selection of particle composition and structure can dramatically enhance their emission properties. This single-particle study was made possible by developing a suitable [dual-beam confocal miscoscope](/rad/#dual-beam-confocal-microscope) which enabled super-resolution imaging with single-photon detection. 
+In this project, I characterized the luminescence response of a specific class of nanoparticles demonstrating how the right selection of particle composition and structure can dramatically enhance their emission properties. This single-particle study was made possible by developing a suitable [dual-beam confocal miscoscope](/instrumentation/#dual-beam-confocal-microscope) which enabled super-resolution imaging with single-photon detection. 
 
 This work was fundamental to successfully maximise the brightness of these particles at very low light excitation and demonstrating their viability for LED-driven scanning imaging.
 

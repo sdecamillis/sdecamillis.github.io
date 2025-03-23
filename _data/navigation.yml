@@ -4,8 +4,8 @@ main:
     url: /
   - title: "Research"
     url: /research/
-  - title: "R&D"
-    url: /rad/
+  - title: "Instrumentation"
+    url: /instrumentation/
   - title: "Analytics"
     url: /analytics/
   - title: "Credentials"
