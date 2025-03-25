@@ -68,14 +68,20 @@ References:
 
 ## Molecular Physics
 
-
 ### De-excitation processes in nucleosides
 
 The stability of the DNA molecules against photon irradiation has been crucial for the successful development of life on Earth. However, little is known about the fundamental processes responsible for the DNA photo-stability, due to its size and complexity.
 
-Studies of the primary building blocks of the DNA, the nucleobases, have uncovered an exception ability to disperse the absorbed energy in the sourrounding environment through non-radiative relaxation pathways, within short timescales of picoseconds. In a bottom-up approach to understand the DNA resiliace upon photon irradiation, the next step involves the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group. However, such relatively complex molecules have only been investigates in solutions due to the challeging task of producing them in vapour form.
+Studies of the photo-dynamics of nucleobases, the primary building blocks of the DNA, have highlighted the importance of non-radiative relaxation pathways responsible for dispersing the absorbed energy into the sourrounding environment, on timescales as short as picoseconds.
+In a bottom-up approach to understand the DNA resiliace upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group, which are challenging to have readily available in isolated and neutral form.
+
+This project combined the molecular desorption technique for generating gas-phased intact molecules and a pump-probe scheme for [time-resolved mass spectrometry](/instrumentation/#pump-probe-experiments) to measure for the first time the de-excitation lifetime of neutral nucleosides from their first excited states.
+
+{% comment %}
+Studies of the primary building blocks of the DNA, the nucleobases, have uncovered an exceptional ability to disperse the absorbed energy in the sourrounding environment through non-radiative relaxation pathways, within short timescales of picoseconds. In a bottom-up approach to understand the DNA resiliace upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group. However, such relatively complex molecules had only been investigated in solutions due to the challeging task of producing them in vapour form.
 
 This project achieved a stable protocol for generating neutral nucleosides in gas phase and produced the first measurement of lifetime of the first excited state in all of the DNA nucleosides following UV excitation.
+{% endcomment %}
 
 >![Relaxation diagram](/assets/research/relaxation_dynamics.png)
 >*DESCRIPTION OF THE IMAGE*
@@ -102,12 +108,19 @@ References:
 - J.C. Poully et al., *Proton irradiation of DNA nucleosides in the gas phase*, [Physical Chemistry Chemical Physics 17, 7172-7180 (2015)](https://dx.doi.org/10.1039/C4CP05303F)
 
 
-
 ### Attosecond charge migration
 
+Attesecond laser pulses have attracted great interest in chemistry due to their ability to promptly ionise electrons on a time scale preceding any nuclear rearrangement, opening up the investigation of ultrafast electronic processes in simple molecules and solids. 
+
+In large molecules, prompt ionisation processes can lead to the generation of an electronic wavepacket able to oscillate between local acceptor-donor sites of a molecule. However, this behaviour had only been predicted in theoretical calculations of photo-dynamics in peptide chains.
+
+This project was first in the observation of coherent charge oscillations in biomolecules, by combining the cutting-edge laser technology with accurate time-resolved mass spectrometry. This pioneering result represented a fundamental step towards the possibility of steering dissociative dynamics and ultimately aiming to the control of the molecular reactivity.
+
+{% comment %}
 Interacting with the electron density of a molecule on a timescale sufficiently short to preceed any nuclear influence is a fundamental step towards the possibility of steering dissociative processes and ultimately achieving reactivity control.
 
 This project was first in the generation and observation of coherent charge oscillations in molecules. These experiments were enabled by the interaction with the shortest laser pulses currently available.
+{% endcomment %}
 
 >![Charge migration animation](/assets/research/charge_migration.png)
 >*DESCRIPTION OF THE IMAGE*
@@ -121,9 +134,7 @@ References:
 
 ## Plasma Physics
 
-
 ### Dynamics at the magnetosphere
-
 
 The magnetic field sourrounding the Earth acts as powerful shield against the constant stream of charged particles emitted by the Sun, which would otherwise directly impact our life on Earth. The dynamics of such solar wind at the boundary of the magnetosphere is of primary interest for space plasma modeling, as it involves a wide range of spatial and temporal scales.
 
