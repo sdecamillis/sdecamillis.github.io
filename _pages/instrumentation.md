@@ -43,16 +43,22 @@ References:
 
 ### Dual-beam confocal microscope
 
-Upconversion nanoparticles (UCNPs) are a unique class of optical nanomaterials doped with lanthanide ions. 
-Thanks to their excellent and flexible luminescence performance, they enabled significant advances in a broad range of applications, including [super-resolution imaging](/research/#super-resolution-imaging).
+The study of UCNPs had a specific list of requirements to address the following needs:
+- excitation in the NIR
+- detection in different spectral windows in the visible and in the excitation band
+- single-photon detection
+- tunable excitation power
+- 3D scanning system
+
+developed acquisition system in Labview.
+
+To enable STED, a second excitation beam was introduced in the excitation optical path to allow for single or dual excitation channel.
 
 In this research project, I developed a table-top confocal microscope suitable for imaging a selected type of UCNPs..
 
-About dual-beam confocal microscope
-
 
 >![Dual-beam optical setup](/assets/rad/sted_setup.jpg)
->*Table-top confocal microscope combining a 976 nm Gaussian beam as excitation laser*
+>*Table-top confocal microscope providing a 976 nm Gaussian beam as excitation source, a 808 nm annular beam as depletion laser, and detection in a tunable spectral window.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 References:
@@ -65,7 +71,22 @@ References:
 
 ### Pump-probe experiments
 
+Pump-probe laser experiments are a reliable technique to study electron dynamics in molecules. 
+Laser pulses can initiate dynamics from a given initial electronic state but we don't have the capability to record in real-time the change evolution, even less on a single molecule level.
+The idea is to take snapshots of the change state by inducing photo-fragmentation with a second laser pulse. The fragmentation pattern is found to be directly related to the electron distribution of the molecule prior to the dissociative event.
+As the initial electron state is always the same, the accuracy of the measurement relies on building a sufficiently large statistical sample of the fragmentation pattern (10^5 molecules * 10^4 spectra).
+
+Three elements:
+- neutral isolated molecules available in gas phase, through gentle thermal desorption, in proximity of the interaction region
+- a mass spectrometer to collect and measure the products of the fragmentation events, requiring high-voltage electrodes in high ultra-vacuum
+- pump and probe laser pulses with controlled and tunable temporal delay, focused at the centre of the interaction region of the mass spectrometer.
+
+
+{% comment %} 
+The dynamics can be initiated by an ultrashort laser pulse, and it can be subsequently probed by the interaction with a second laser pulse leading to the photo-dissociation
+
 Pump-probe pulses to obtain time-dependent fragmentation of ionised molecules.
+{% endcomment %} 
 
 >![Pump-probe laser setup](/assets/rad/KEIRA_setup.png)
 >*DESCRIPTION OF THE IMAGE*
