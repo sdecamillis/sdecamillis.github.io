@@ -29,8 +29,8 @@ As part of the SmartLight team, I developed a novel solution able to accurately 
 
 My main contributions have focused on the R&D work to deliver commercially viable scanning systems for 3D crystal mapping. My projects included:
 - simplifying the design and manufacturing of the fibre-optic interferometer to minimise losses and improve optical stability,
-- establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance,
-- modelling the residual optical distortion with numerical simulations in Zemax and experimental measurements.
+- modelling the residual [optical distortion](/analytics/#optical-distortion) with numerical simulations in Zemax and experimental measurements,
+- establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance.
 
 >![OCT interferometer](/assets/rad/oct_scanning_system.png)
 >*First prototype of the OCT scanning system: a fibre-spliced broadband interferometer is coupled with a multi-axis gantry system allowing the full sample rotation, the displacement of the focal plane and height adjustment.*
@@ -65,14 +65,21 @@ References:
 - S. De Camillis et al., *Controlling the non-linear emission of upconversion nanoparticles to enhance super-resolution imaging performance*, [Nanoscale 12, 20347 (2020)](https://doi.org/10.1039/D0NR04809G)
 
 
-
 ## Ultrafast mass spectroscopy
 
 
 ### Pump-probe experiments
 
+Pump-probe laser experiments are currently the best candidate for studying electron dynamics in molecules. A laser pulse initiates the dynamics from a defined electronic state and its temporal evolution is probed at a given time delay by a second laser pulse, which induces molecular fragmentation. Due to the destructive nature of the measurement and the related uncertanties, the experiment requires to build a large ensamble of fragmentation patters (10^4-10^5 mass spectra). 
+
+The first ever measurements of [relaxation dynamics in nucleosides](/research/#de-excitation-processes-in-nucleosides) and of [charge migration](/research/#attosecond-charge-migration) were made possible thanks to:
+- the development of a custom mass spectrometer including a composite arrangement of electrodes with tunable voltages to optimise the signal precision, extended time-of-flight region to improve accuracy, and high ultra-vacuum conditions to reduce the background noise,
+- neutral isolated molecules available in gas phase, through gentle thermal desorption, in proximity of the interaction region
+- pump and probe laser pulses with controlled and tunable temporal delay, focused at the centre of the interaction region of the mass spectrometer.
+
+{% comment %} 
 Pump-probe laser experiments are a reliable technique to study electron dynamics in molecules. 
-Laser pulses can initiate dynamics from a given initial electronic state but we don't have the capability to record in real-time the change evolution, even less on a single molecule level.
+Laser pulses can initiate dynamics from a defined initial electronic state but we don't have the capability to record in real-time the change evolution, even less on a single molecule level.
 The idea is to take snapshots of the change state by inducing photo-fragmentation with a second laser pulse. The fragmentation pattern is found to be directly related to the electron distribution of the molecule prior to the dissociative event.
 As the initial electron state is always the same, the accuracy of the measurement relies on building a sufficiently large statistical sample of the fragmentation pattern (10^5 molecules * 10^4 spectra).
 
@@ -81,8 +88,6 @@ Three elements:
 - a mass spectrometer to collect and measure the products of the fragmentation events, requiring high-voltage electrodes in high ultra-vacuum
 - pump and probe laser pulses with controlled and tunable temporal delay, focused at the centre of the interaction region of the mass spectrometer.
 
-
-{% comment %} 
 The dynamics can be initiated by an ultrashort laser pulse, and it can be subsequently probed by the interaction with a second laser pulse leading to the photo-dissociation
 
 Pump-probe pulses to obtain time-dependent fragmentation of ionised molecules.

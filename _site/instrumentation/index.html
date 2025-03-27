@@ -335,8 +335,8 @@
 <p>My main contributions have focused on the R&amp;D work to deliver commercially viable scanning systems for 3D crystal mapping. My projects included:</p>
 <ul>
   <li>simplifying the design and manufacturing of the fibre-optic interferometer to minimise losses and improve optical stability,</li>
-  <li>establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance,</li>
-  <li>modelling the residual optical distortion with numerical simulations in Zemax and experimental measurements.</li>
+  <li>modelling the residual <a href="/analytics/#optical-distortion">optical distortion</a> with numerical simulations in Zemax and experimental measurements,</li>
+  <li>establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance.</li>
 </ul>
 
 <blockquote style="width: 65%; font-size: 0.9rem;">
@@ -352,16 +352,24 @@
 
 <h3 id="dual-beam-confocal-microscope">Dual-beam confocal microscope</h3>
 
-<p>Upconversion nanoparticles (UCNPs) are a unique class of optical nanomaterials doped with lanthanide ions. 
-Thanks to their excellent and flexible luminescence performance, they enabled significant advances in a broad range of applications, including <a href="/research/#super-resolution-imaging">super-resolution imaging</a>.</p>
+<p>The study of UCNPs had a specific list of requirements to address the following needs:</p>
+<ul>
+  <li>excitation in the NIR</li>
+  <li>detection in different spectral windows in the visible and in the excitation band</li>
+  <li>single-photon detection</li>
+  <li>tunable excitation power</li>
+  <li>3D scanning system</li>
+</ul>
+
+<p>developed acquisition system in Labview.</p>
+
+<p>To enable STED, a second excitation beam was introduced in the excitation optical path to allow for single or dual excitation channel.</p>
 
 <p>In this research project, I developed a table-top confocal microscope suitable for imaging a selected type of UCNPs..</p>
 
-<p>About dual-beam confocal microscope</p>
-
 <blockquote style="width: 65%; font-size: 0.9rem;">
   <p><img src="/assets/rad/sted_setup.jpg" alt="Dual-beam optical setup" />
-<em>Table-top confocal microscope combining a 976 nm Gaussian beam as excitation laser</em></p>
+<em>Table-top confocal microscope providing a 976 nm Gaussian beam as excitation source, a 808 nm annular beam as depletion laser, and detection in a tunable spectral window.</em></p>
 </blockquote>
 
 <p>References:</p>
@@ -373,7 +381,14 @@ Thanks to their excellent and flexible luminescence performance, they enabled si
 
 <h3 id="pump-probe-experiments">Pump-probe experiments</h3>
 
-<p>Pump-probe pulses to obtain time-dependent fragmentation of ionised molecules.</p>
+<p>Pump-probe laser experiments are currently the best candidate for studying electron dynamics in molecules. A laser pulse initiates the dynamics from a defined electronic state and its temporal evolution is probed at a given time delay by a second laser pulse, which induces molecular fragmentation. Due to the destructive nature of the measurement and the related uncertanties, the experiment requires to build a large ensamble of fragmentation patters (10^4-10^5 mass spectra).</p>
+
+<p>The first ever measurements of <a href="/research/#de-excitation-processes-in-nucleosides">relaxation dynamics in nucleosides</a> and of <a href="/research/#attosecond-charge-migration">charge migration</a> were made possible thanks to:</p>
+<ul>
+  <li>the development of a custom mass spectrometer including a composite arrangement of electrodes with tunable voltages to optimise the signal precision, extended time-of-flight region to improve accuracy, and high ultra-vacuum conditions to reduce the background noise,</li>
+  <li>neutral isolated molecules available in gas phase, through gentle thermal desorption, in proximity of the interaction region</li>
+  <li>pump and probe laser pulses with controlled and tunable temporal delay, focused at the centre of the interaction region of the mass spectrometer.</li>
+</ul>
 
 <blockquote style="width: 65%; font-size: 0.9rem;">
   <p><img src="/assets/rad/KEIRA_setup.png" alt="Pump-probe laser setup" />
