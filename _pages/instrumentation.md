@@ -70,12 +70,14 @@ References:
 
 ### Pump-probe experiments
 
-Pump-probe laser experiments are currently the best candidate for studying electron dynamics in molecules. A laser pulse initiates the dynamics from a defined electronic state and its temporal evolution is probed at a given time delay by a second laser pulse, which induces molecular fragmentation. Due to the destructive nature of the measurement and the related uncertanties, the experiment requires to build a large ensamble of fragmentation patters (10^4-10^5 mass spectra). 
+Pump-probe laser experiments are currently the best candidate for studying electron dynamics in molecules. A laser pulse initiates the dynamics from a defined electronic state and its temporal evolution is probed at a given time delay by a second laser pulse, which induces molecular fragmentation. Due to the destructive nature of the measurement and the related uncertanties, the experiment is repeated a large number of time (10^4-10^5 mass spectra) to improve the measurement sensitivity. 
 
-The first ever measurements of [relaxation dynamics in nucleosides](/research/#de-excitation-processes-in-nucleosides) and of [charge migration](/research/#attosecond-charge-migration) were made possible thanks to:
+The first ever measurements of molecular dynamics in biomolecules in their neutral charge were made possible thanks to:
 - the development of a custom mass spectrometer including a composite arrangement of electrodes with tunable voltages to optimise the signal precision, extended time-of-flight region to improve accuracy, and high ultra-vacuum conditions to reduce the background noise,
-- neutral isolated molecules available in gas phase, through gentle thermal desorption, in proximity of the interaction region
-- pump and probe laser pulses with controlled and tunable temporal delay, focused at the centre of the interaction region of the mass spectrometer.
+- the generation of neutral isolated molecules in gas phase through gentle thermal desorption, carefully balancing the need for a high number of molecules at the interaction region without inducing their thermal decomposition,
+- the delivery of the pump and probe laser pulses with tunable and stabilized temporal delay, both focused and well aligned at the centre of the interaction region.
+
+Additionally, for the observation of any electron [charge migration](/research/#attosecond-charge-migration),
 
 {% comment %} 
 Pump-probe laser experiments are a reliable technique to study electron dynamics in molecules. 
