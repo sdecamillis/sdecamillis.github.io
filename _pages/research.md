@@ -17,6 +17,9 @@ toc_icon: "gear"
 toc_sticky: true
 ---
 
+{% comment %}
+How to write multi-line comments
+{% endcomment %}
 
 ## Microscopy and nanomaterials
 
@@ -29,14 +32,6 @@ Thanks to their excellent and flexible luminescence performance, they enabled si
 In this project, I characterized the luminescence response of a specific class of nanoparticles demonstrating how the right selection of particle composition and structure can dramatically enhance their emission properties. This single-particle study was made possible by developing a suitable [dual-beam confocal miscoscope](/instrumentation/#dual-beam-confocal-microscope) which enabled super-resolution imaging with single-photon detection. 
 
 This work was fundamental to successfully maximise the brightness of these particles at very low light excitation and demonstrating their viability for LED-driven scanning imaging.
-
-{% comment %} 
-Research in versitile nanoprobes is key to enable majour advances in optical microscopy. Bright, photostable, chromatic multiplexing, non-linear emission.
-
-Major efforts have been dedicated to extend the repeatability of the STED imaging, as the common contrast agents (fluorophores) progressively fade while scanning repeatitively the same speciment. Up-convertion nanoparticles (UCNPs) are the most promising alternative, thanks to their bright emission and photo-stability.
-
-In this project, I optically characterised a specific class of nanoparticles demonstrating how the particle composition and structure directly affect their emission properties. At suitable conditions, these nanoparticles can enable LED-driven imaging.
-{% endcomment %} 
 
 >![Characteristic emission of UCNPs](/assets/research/ucnps.png)
 >*DESCRIPTION OF THE IMAGE*

@@ -36,13 +36,14 @@ My main contributions have focused on the R&D work to deliver commercially viabl
 >*First prototype of the OCT scanning system: a fibre-spliced broadband interferometer is coupled with a multi-axis gantry system allowing the full sample rotation, the displacement of the focal plane and height adjustment.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
-References:
-
-- ...
-
 
 ### Dual-beam confocal microscope
 
+At Macquarie University, I developed and optimised a purpose-built bench-top scanning microscope to study [upconversion materials as fluorescent nanoprobes](/research/#non-linear-response-of-YbTm-particles). The key feature of this microscope was the generation and alignment of two infrared laser modes with different radial profiles: Gaussian and annular. The experiment required an accurate characterisation of the beam point-spread-functions to guarantee central symmetry and collinearity of the two lasers. 
+
+Precision in this alignment is fundamental to enable *[Stimulated Excitation Depletion microscopy](/research/#super-resolution-imaging)* when applied to up-conversion nanoparticles. As a result of my system upgrades, the resolution performance of the instrument improved to the point of being able to resolve and characterise individual nanoparticles (50 nm), well beyond the diffraction limit.  
+
+{% comment %}
 The study of UCNPs had a specific list of requirements to address the following needs:
 - excitation in the NIR
 - detection in different spectral windows in the visible and in the excitation band
@@ -55,7 +56,7 @@ developed acquisition system in Labview.
 To enable STED, a second excitation beam was introduced in the excitation optical path to allow for single or dual excitation channel.
 
 In this research project, I developed a table-top confocal microscope suitable for imaging a selected type of UCNPs..
-
+{% endcomment %}
 
 >![Dual-beam optical setup](/assets/rad/sted_setup.jpg)
 >*Table-top confocal microscope providing a 976 nm Gaussian beam as excitation source, a 808 nm annular beam as depletion laser, and detection in a tunable spectral window.*
@@ -70,37 +71,22 @@ References:
 
 ### Pump-probe experiments
 
-Pump-probe laser experiments are currently the best candidate for studying electron dynamics in molecules. A laser pulse initiates the dynamics from a defined electronic state and its temporal evolution is probed at a given time delay by a second laser pulse, which induces molecular fragmentation. Due to the destructive nature of the measurement and the related uncertanties, the experiment is repeated a large number of time (10^4-10^5 mass spectra) to improve the measurement sensitivity. 
+Pump-probe laser experiments are currently the best candidate for studying electron dynamics in molecules. A laser pulse initiates the dynamics from a defined electronic state and its temporal evolution is probed at a given time delay by a second laser pulse, which induces molecular fragmentation. Due to the destructive nature of the experiment and the related uncertanties, the measurement is repeated a large number of time (10^4-10^5 mass spectra) to improve the overall sensitivity. 
 
-The first ever measurements of molecular dynamics in biomolecules in their neutral charge were made possible thanks to:
-- the development of a custom mass spectrometer including a composite arrangement of electrodes with tunable voltages to optimise the signal precision, extended time-of-flight region to improve accuracy, and high ultra-vacuum conditions to reduce the background noise,
+The first ever measurements of molecular dynamics in biomolecules in their neutral state were made possible thanks to:
+- the development of a custom mass spectrometer including a composite arrangement of electrodes with tunable voltages to optimise the signal precision and high ultra-vacuum conditions to reduce the background noise,
 - the generation of neutral isolated molecules in gas phase through gentle thermal desorption, carefully balancing the need for a high number of molecules at the interaction region without inducing their thermal decomposition,
 - the delivery of the pump and probe laser pulses with tunable and stabilized temporal delay, both focused and well aligned at the centre of the interaction region.
 
-Additionally, for the observation of any electron [charge migration](/research/#attosecond-charge-migration),
-
-{% comment %} 
-Pump-probe laser experiments are a reliable technique to study electron dynamics in molecules. 
-Laser pulses can initiate dynamics from a defined initial electronic state but we don't have the capability to record in real-time the change evolution, even less on a single molecule level.
-The idea is to take snapshots of the change state by inducing photo-fragmentation with a second laser pulse. The fragmentation pattern is found to be directly related to the electron distribution of the molecule prior to the dissociative event.
-As the initial electron state is always the same, the accuracy of the measurement relies on building a sufficiently large statistical sample of the fragmentation pattern (10^5 molecules * 10^4 spectra).
-
-Three elements:
-- neutral isolated molecules available in gas phase, through gentle thermal desorption, in proximity of the interaction region
-- a mass spectrometer to collect and measure the products of the fragmentation events, requiring high-voltage electrodes in high ultra-vacuum
-- pump and probe laser pulses with controlled and tunable temporal delay, focused at the centre of the interaction region of the mass spectrometer.
-
-The dynamics can be initiated by an ultrashort laser pulse, and it can be subsequently probed by the interaction with a second laser pulse leading to the photo-dissociation
-
-Pump-probe pulses to obtain time-dependent fragmentation of ionised molecules.
-{% endcomment %} 
+The observation of pure [quantum oscillations](/research/#attosecond-charge-migration) in biomolecules requires laser pulses shorter than the characteristic timescale of the electron dynamics. For this projects, I also had the possibility to work with the STARLIGHT team at the IFN-CNR facility in Milano to build and perform attosecond pump-probe experiments.
 
 >![Pump-probe laser setup](/assets/rad/KEIRA_setup.png)
->*DESCRIPTION OF THE IMAGE*
+>*The high-sensitive mass spectrometer is integrated into the attosecond XUV-IR beamline.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 Links:
 - [Ultrafast Belfast laboratories](https://www.qub.ac.uk/research-centres/light-matter-interactions/Researchthemes/Ultrafastdynamicsinatomsandmolecules/)
+- [Attosecond laser facility](https://atto.cfel.de/research/research_projects/starlight/)
 
 
 ### Ultrashort VUV pulses
@@ -130,7 +116,7 @@ Links:
 - T. Pichon et al., *Quantix and Intrapix: test benches dedicated to quantumbefficiency measurement and intra-pixel response of detectors from VIS to LWIR*, [Proc. of SPIE 12191, 121912I (2022)](https://doi.org/10.1117/12.2630232)
 
 
-### Effects of ion radiation
+### Quantum efficiency
 
 Paragraph on Quantix experiment
 

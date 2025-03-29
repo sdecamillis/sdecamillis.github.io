@@ -52,7 +52,7 @@ Combining qualitative and quantitative data from three survey points over 18 mon
 Among the adopted techniques:
 - Multi-variable regression
 
-### Structured illumiation microscopy
+### Modelling imaging performance
 
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
 ![NumPy](https://img.shields.io/badge/NumPy-aaa?logo=numpy&logoColor=013243)
@@ -68,7 +68,7 @@ Among the adopted techniques:
 - Spectral domain manipulation
 
 
-### Inclusion mapping in crystals
+### Automated 3D data visualisation
 
 ![ParaView](https://img.shields.io/badge/ParaView-blue?style=plastic&amp)
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
@@ -83,7 +83,7 @@ Among the adopted techniques:
 - Multi-dimensional data visualisation
 
 
-### Electricity consumption
+### Analysing the electricity bill
 
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
 ![NumPy](https://img.shields.io/badge/NumPy-aaa?logo=numpy&logoColor=013243)
