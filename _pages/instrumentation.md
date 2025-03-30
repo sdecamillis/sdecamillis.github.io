@@ -62,7 +62,8 @@ In this research project, I developed a table-top confocal microscope suitable f
 >*Table-top confocal microscope providing a 976 nm Gaussian beam as excitation source, a 808 nm annular beam as depletion laser, and detection in a tunable spectral window.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
-References:
+Link:
+- [Centre of Excellence for Nanoscale Biophotonics](https://cnbplegacy.org.au/imaging/)
 - S. De Camillis et al., *Controlling the non-linear emission of upconversion nanoparticles to enhance super-resolution imaging performance*, [Nanoscale 12, 20347 (2020)](https://doi.org/10.1039/D0NR04809G)
 
 
@@ -91,10 +92,12 @@ Links:
 
 ### Ultrashort VUV pulses
 
-Description of the project for generating VUV laser pulses
+Next-generation biomolecular pump-probe measurements require the adoption of ultrashort excitation pulses with a different photon energy, aiming for a more selective study of charge and energy dynamics in DNA building blocks. For instance, UV radiation is resonant with aromatic chromophores, such as nucleobases and amino acids, therefore being an ideal candidate as pump pulse due to its property of site-selective ionisation.
+
+I joined the STARLIGHT team through the early stages of the project to build a novel laser beamline producing few-fs UV pulses.  I was involved in the preliminary work of ultrashort UV pulse generation via strong field interaction in gas-phase.
 
 >![VUV beamline development](/assets/rad/VUV_setup.png)
->*DESCRIPTION OF THE IMAGE*
+>*Early experiments of ultrashort UV pulse generation thorugh third-harmonic generation in noble gases. *
 {: style="width: 65%; font-size: 0.9rem;"}
 
 Links:

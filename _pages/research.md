@@ -24,14 +24,14 @@ How to write multi-line comments
 ## Microscopy and nanomaterials
 
 
-### Non-linear response of YbTm particles
+### Non-linear response of lanthanide nanoparticles
 
 Upconversion nanoparticles (UCNPs) are a unique class of optical nanomaterials doped with lanthanide ions. 
 Thanks to their excellent and flexible luminescence performance, they enabled significant advances in a broad range of applications, such as photo-activated drug delivery, IR vision extension, security ink, and [super-resolution imaging](/research/#super-resolution-imaging).
 
-In this project, I characterized the luminescence response of a specific class of nanoparticles demonstrating how the right selection of particle composition and structure can dramatically enhance their emission properties. This single-particle study was made possible by developing a suitable [dual-beam confocal miscoscope](/instrumentation/#dual-beam-confocal-microscope) which enabled super-resolution imaging with single-photon detection. 
+In this project, I characterized the luminescence response of YbTm nanoparticles demonstrating how the right selection of particle composition and structure can dramatically enhance their emission properties. This single-particle study was made possible by developing a suitable [dual-beam confocal miscoscope](/instrumentation/#dual-beam-confocal-microscope) which enabled super-resolution imaging with single-photon detection. 
 
-This work was fundamental to successfully maximise the brightness of these particles at very low light excitation and demonstrating their viability for LED-driven scanning imaging.
+This work was fundamental to successfully maximise the brightness of these particles at very low light excitation, demonstrating their viability for LED-driven scanning imaging.
 
 >![Characteristic emission of UCNPs](/assets/research/ucnps.png)
 >*DESCRIPTION OF THE IMAGE*
@@ -45,9 +45,9 @@ References:
 
 ### Super-resolution imaging
 
-Light cannot be focused down indefinitively, ultimately limited by the laws of quantum mechanics. However, in the past few decades, clever solutions have been developped to circumvent such limit and observe objects as small as few tens of nanometres.
+Light cannot be focused down indefinitively, ultimately limited by the phenomenon of diffraction. However, in the past few decades, clever solutions have been developped to circumvent such limit and observe objects as small as few tens of nanometres.
 
-In the quest to make super-resolution microscopy easier and more applicable, Up-convertion nanoparticles (UCNPs) have demonstrated great potentials. They have proved to be suitable for *STimulated Excitation Depletion* (STED) microscopy and *Super-linear Excitation-Emission* (SEE) microscopy, providing enhanced photostability and spectral selectivity compared to the common contrast agents. 
+In the quest to make super-resolution microscopy easier and more applicable, Up-Convertion NanoParticles (UCNPs) have demonstrated great potentials. They have proved to be suitable for *STimulated Excitation Depletion* (STED) microscopy and *Super-linear Excitation-Emission* (SEE) microscopy, providing enhanced photostability and spectral selectivity compared to commonly used contrast agents. 
 
 This project explored the non-linear optical properties of UCNPs to push their performance beyond their current limits. With the suitable excitation conditions and particle composition, these nanoprobes can enable simultaneous STED and SEE modalities, further enhancing the imaging resolution. These results were successfully applied in a biological environment.
 
@@ -68,6 +68,7 @@ References:
 The stability of the DNA molecules against photon irradiation has been crucial for the successful development of life on Earth. However, little is known about the fundamental processes responsible for the DNA photo-stability, due to its size and complexity.
 
 Studies of the photo-dynamics of nucleobases, the primary building blocks of the DNA, have highlighted the importance of non-radiative relaxation pathways responsible for dispersing the absorbed energy into the sourrounding environment, on timescales as short as picoseconds.
+
 In a bottom-up approach to understand the DNA resiliace upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group, which are challenging to have readily available in isolated and neutral form.
 
 This project combined the molecular desorption technique for generating gas-phased intact molecules and a pump-probe scheme for [time-resolved mass spectrometry](/instrumentation/#pump-probe-experiments) to measure for the first time the de-excitation lifetime of neutral nucleosides from their first excited states.
