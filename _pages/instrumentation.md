@@ -39,24 +39,11 @@ My main contributions have focused on the R&D work to deliver commercially viabl
 
 ### Dual-beam confocal microscope
 
-At Macquarie University, I developed and optimised a purpose-built bench-top scanning microscope to study [upconversion materials as fluorescent nanoprobes](/research/#non-linear-response-of-YbTm-particles). The key feature of this microscope was the generation and alignment of two infrared laser modes with different radial profiles: Gaussian and annular. The experiment required an accurate characterisation of the beam point-spread-functions to guarantee central symmetry and collinearity of the two lasers. 
+At Macquarie University, I developed and optimised a purpose-built bench-top scanning microscope to study [upconversion materials as fluorescent nanoprobes](/research/#non-linear-response-of-YbTm-particles). The key feature of this microscope was the generation and alignment of two infrared laser modes with different radial profiles: Gaussian and annular. The experiment required an accurate characterisation of the beam point-spread-functions to guarantee central symmetry and collinearity of the two lasers.
 
-Precision in this alignment is fundamental to enable *[Stimulated Excitation Depletion microscopy](/research/#super-resolution-imaging)* when applied to up-conversion nanoparticles. As a result of my system upgrades, the resolution performance of the instrument improved to the point of being able to resolve and characterise individual nanoparticles (50 nm), well beyond the diffraction limit.  
+The system included tunable excitation power, the selection of different spectral windows, accurate translation of the sample in the 3D space, and the capability of single-photon detection. All these features were computer-controlled by a Labview program that I developed uing a modular and scalable architecture.
 
-{% comment %}
-The study of UCNPs had a specific list of requirements to address the following needs:
-- excitation in the NIR
-- detection in different spectral windows in the visible and in the excitation band
-- single-photon detection
-- tunable excitation power
-- 3D scanning system
-
-developed acquisition system in Labview.
-
-To enable STED, a second excitation beam was introduced in the excitation optical path to allow for single or dual excitation channel.
-
-In this research project, I developed a table-top confocal microscope suitable for imaging a selected type of UCNPs..
-{% endcomment %}
+Beam alignment was fundamental to enable *[Stimulated Excitation Depletion microscopy](/research/#super-resolution-imaging)*, especially when applied to up-conversion nanoparticles. As a result of my system upgrades, the resolution performance of the instrument improved to the point of being able to resolve and characterise individual nanoparticles (50 nm), well beyond the diffraction limit.  
 
 >![Dual-beam optical setup](/assets/rad/sted_setup.jpg)
 >*Table-top confocal microscope providing a 976 nm Gaussian beam as excitation source, a 808 nm annular beam as depletion laser, and detection in a tunable spectral window.*
@@ -87,21 +74,24 @@ The observation of pure [quantum oscillations](/research/#attosecond-charge-migr
 
 Links:
 - [Ultrafast Belfast laboratories](https://www.qub.ac.uk/research-centres/light-matter-interactions/Researchthemes/Ultrafastdynamicsinatomsandmolecules/)
-- [Attosecond laser facility](https://atto.cfel.de/research/research_projects/starlight/)
+- [STARLIGHT project](https://atto.cfel.de/research/research_projects/starlight/)
 
 
 ### Ultrashort VUV pulses
 
 Next-generation biomolecular pump-probe measurements require the adoption of ultrashort excitation pulses with a different photon energy, aiming for a more selective study of charge and energy dynamics in DNA building blocks. For instance, UV radiation is resonant with aromatic chromophores, such as nucleobases and amino acids, therefore being an ideal candidate as pump pulse due to its property of site-selective ionisation.
 
-I joined the STARLIGHT team through the early stages of the project to build a novel laser beamline producing few-fs UV pulses.  I was involved in the preliminary work of ultrashort UV pulse generation via strong field interaction in gas-phase.
+I joined the STARLIGHT team through the early stages of the project to build a novel laser beamline producing few-fs UV pulses.  I was involved in the preliminary work assessing and optimising the optical conditions for the generation of UV pulsed radiation, compatible with the requirements of the attosecond beamline. Considering the limitations imposed by dispersive bulk materials for the generation of ultrashort UV pulses, we adopted the novel approach of strong-field interaction with gas-phased media characterised by limited optical dispersion.
+
+This work demonstrated the possibility to achieve few-femtosecond laser pulses with conditions of gas pressure inside the cell sustainable for the vacuum system. A FEW MORE DETAILS ABOUT THE PROJECT.
+This work also represented a good learning about the hardware limitations for harmonic generation in gas media and inspired a new prototype of the gas cell, fabricated in fused silica.
 
 >![VUV beamline development](/assets/rad/VUV_setup.png)
->*Early experiments of ultrashort UV pulse generation thorugh third-harmonic generation in noble gases. *
+>*Early experiments of ultrashort UV pulse generation. The process of third-harmonic generation in noble gases was attempted with a prototype metal cell.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 Links:
-- [ELYCHE laboratories](https://www.attosecond.fisi.polimi.it/)
+- [Few-fs UV light generation](https://atto.cfel.de/research/light_sources/few_femtosecond_uv_light_sources/)
 
 
 ## CMOS detectors
