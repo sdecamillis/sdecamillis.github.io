@@ -94,6 +94,7 @@ Links:
 - [Few-fs UV light generation](https://atto.cfel.de/research/light_sources/few_femtosecond_uv_light_sources/)
 
 
+{% comment %}
 ## CMOS detectors
 
 
@@ -119,3 +120,4 @@ Paragraph on Quantix experiment
 
 Links:
 - T. Pichon et al., *Quantix and Intrapix: test benches dedicated to quantumbefficiency measurement and intra-pixel response of detectors from VIS to LWIR*, [Proc. of SPIE 12191, 121912I (2022)](https://doi.org/10.1117/12.2630232)
+{% endcomment %}

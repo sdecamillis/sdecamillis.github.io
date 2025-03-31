@@ -52,7 +52,7 @@ In the quest to make super-resolution microscopy easier and more applicable, Up-
 This project explored the non-linear optical properties of UCNPs to push their performance beyond their current limits. With the suitable excitation conditions and particle composition, these nanoprobes can enable simultaneous STED and SEE modalities, further enhancing the imaging resolution. These results were successfully applied in a biological environment.
 
 >![STED-SEE microscopy in cell](/assets/research/ucnp_in_cells.png)
->*DESCRIPTION OF THE IMAGE*
+>*Slices of a 3D confocal image of UCNP*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 References:
@@ -96,8 +96,8 @@ The experimental study of fragmentation processes in ionised molecules is fundam
 In this project, the fragmentation of nucleosides was explored specifically upon ionisation induced by either photon- or proton- irradiation. These experiments demonstrated how the binding energy of local sub-structures determines the charge localisation upon dissociative ionisation.
 
 >![Diagram of charge transfer](/assets/research/charge_transfer.png)
->*DESCRIPTION OF THE IMAGE*
-{: style="width: 60%; font-size: 0.9rem;"}
+>*Diagram of the charge transfer occurring in amino-acids upon exposure to ionisating radiation.*
+{: style="width: 55%; font-size: 0.9rem;"}
 
 References:
 - S. De Camillis, *Ultrafast dynamics in gas-phase building blocks of life*, [PhD Thesis, Queen's University Belfast (2017)](https://pure.qub.ac.uk/files/546317984/Thesis_DeCamillis.pdf)
@@ -119,7 +119,7 @@ This project was first in the generation and observation of coherent charge osci
 {% endcomment %}
 
 >![Charge migration animation](/assets/research/charge_migration.png)
->*DESCRIPTION OF THE IMAGE*
+>*The simulation of the temporal evolution of the charge distribution confirms the quantum beating of electron density at the amino group.*
 {: style="width: 90%; font-size: 0.9rem;"}
 
 References:
@@ -138,7 +138,7 @@ This project focused on extending the classic magneto-hydrodynamic model of the 
 
 >![Plasma dynamics](/assets/research/plasma_dynamics.png)
 >*The shear flow of plasma at the boundary of the magnetosphere drives the generation of vortices (non-linear Kelvin-Helmholtz instability), which provides the conditions for secondary magneto-fluid instability.*
-{: style="width: 60%; font-size: 0.9rem;"}
+{: style="width: 63%; font-size: 0.9rem;"}
 
 References:
 - S. De Camillis et al., *Pressure anisotropy generation in a magnetized plasma configuration with a shear flow velocity*, [Plasma Physics and Controlled Fusion 58, 045007 (2016)](https://doi.org/10.1088/0741-3335/58/4/045007)

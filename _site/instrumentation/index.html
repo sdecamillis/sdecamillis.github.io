@@ -319,7 +319,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-gear"></i> Instrumentation</h4></header>
-              <ul class="toc__menu"><li><a href="#optical-imaging">Optical imaging</a><ul><li><a href="#3d-optical-coherent-tomography">3D optical coherent tomography</a></li><li><a href="#dual-beam-confocal-microscope">Dual-beam confocal microscope</a></li></ul></li><li><a href="#ultrafast-mass-spectroscopy">Ultrafast mass spectroscopy</a><ul><li><a href="#pump-probe-experiments">Pump-probe experiments</a></li><li><a href="#ultrashort-vuv-pulses">Ultrashort VUV pulses</a></li></ul></li><li><a href="#cmos-detectors">CMOS detectors</a><ul><li><a href="#intra-pixel-response">Intra-pixel response</a></li><li><a href="#quantum-efficiency">Quantum efficiency</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#optical-imaging">Optical imaging</a><ul><li><a href="#3d-optical-coherent-tomography">3D optical coherent tomography</a></li><li><a href="#dual-beam-confocal-microscope">Dual-beam confocal microscope</a></li></ul></li><li><a href="#ultrafast-mass-spectroscopy">Ultrafast mass spectroscopy</a><ul><li><a href="#pump-probe-experiments">Pump-probe experiments</a></li><li><a href="#ultrashort-vuv-pulses">Ultrashort VUV pulses</a></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -348,7 +348,9 @@
 
 <p>At Macquarie University, I developed and optimised a purpose-built bench-top scanning microscope to study <a href="/research/#non-linear-response-of-YbTm-particles">upconversion materials as fluorescent nanoprobes</a>. The key feature of this microscope was the generation and alignment of two infrared laser modes with different radial profiles: Gaussian and annular. The experiment required an accurate characterisation of the beam point-spread-functions to guarantee central symmetry and collinearity of the two lasers.</p>
 
-<p>Precision in this alignment is fundamental to enable <em><a href="/research/#super-resolution-imaging">Stimulated Excitation Depletion microscopy</a></em> when applied to up-conversion nanoparticles. As a result of my system upgrades, the resolution performance of the instrument improved to the point of being able to resolve and characterise individual nanoparticles (50 nm), well beyond the diffraction limit.</p>
+<p>The system included tunable excitation power, the selection of different spectral windows, accurate translation of the sample in the 3D space, and the capability of single-photon detection. All these features were computer-controlled by a Labview program that I developed uing a modular and scalable architecture.</p>
+
+<p>Beam alignment was fundamental to enable <em><a href="/research/#super-resolution-imaging">Stimulated Excitation Depletion microscopy</a></em>, especially when applied to up-conversion nanoparticles. As a result of my system upgrades, the resolution performance of the instrument improved to the point of being able to resolve and characterise individual nanoparticles (50 nm), well beyond the diffraction limit.</p>
 
 <blockquote style="width: 65%; font-size: 0.9rem;">
   <p><img src="/assets/rad/sted_setup.jpg" alt="Dual-beam optical setup" />
@@ -384,54 +386,28 @@
 <p>Links:</p>
 <ul>
   <li><a href="https://www.qub.ac.uk/research-centres/light-matter-interactions/Researchthemes/Ultrafastdynamicsinatomsandmolecules/">Ultrafast Belfast laboratories</a></li>
-  <li><a href="https://atto.cfel.de/research/research_projects/starlight/">Attosecond laser facility</a></li>
+  <li><a href="https://atto.cfel.de/research/research_projects/starlight/">STARLIGHT project</a></li>
 </ul>
 
 <h3 id="ultrashort-vuv-pulses">Ultrashort VUV pulses</h3>
 
 <p>Next-generation biomolecular pump-probe measurements require the adoption of ultrashort excitation pulses with a different photon energy, aiming for a more selective study of charge and energy dynamics in DNA building blocks. For instance, UV radiation is resonant with aromatic chromophores, such as nucleobases and amino acids, therefore being an ideal candidate as pump pulse due to its property of site-selective ionisation.</p>
 
-<p>I joined the STARLIGHT team through the early stages of the project to build a novel laser beamline producing few-fs UV pulses.  I was involved in the preliminary work of ultrashort UV pulse generation via strong field interaction in gas-phase.</p>
+<p>I joined the STARLIGHT team through the early stages of the project to build a novel laser beamline producing few-fs UV pulses.  I was involved in the preliminary work assessing and optimising the optical conditions for the generation of UV pulsed radiation, compatible with the requirements of the attosecond beamline. Considering the limitations imposed by dispersive bulk materials for the generation of ultrashort UV pulses, we adopted the novel approach of strong-field interaction with gas-phased media characterised by limited optical dispersion.</p>
+
+<p>This work demonstrated the possibility to achieve few-femtosecond laser pulses with conditions of gas pressure inside the cell sustainable for the vacuum system. A FEW MORE DETAILS ABOUT THE PROJECT.
+This work also represented a good learning about the hardware limitations for harmonic generation in gas media and inspired a new prototype of the gas cell, fabricated in fused silica.</p>
 
 <blockquote style="width: 65%; font-size: 0.9rem;">
   <p><img src="/assets/rad/VUV_setup.png" alt="VUV beamline development" />
-*Early experiments of ultrashort UV pulse generation thorugh third-harmonic generation in noble gases. *</p>
+<em>Early experiments of ultrashort UV pulse generation. The process of third-harmonic generation in noble gases was attempted with a prototype metal cell.</em></p>
 </blockquote>
 
 <p>Links:</p>
 <ul>
-  <li><a href="https://www.attosecond.fisi.polimi.it/">ELYCHE laboratories</a></li>
+  <li><a href="https://atto.cfel.de/research/light_sources/few_femtosecond_uv_light_sources/">Few-fs UV light generation</a></li>
 </ul>
 
-<h2 id="cmos-detectors">CMOS detectors</h2>
-
-<h3 id="intra-pixel-response">Intra-pixel response</h3>
-
-<p>Paragraph on Intrapix experiment</p>
-
-<blockquote style="width: 55%; font-size: 0.9rem;">
-  <p><img src="/assets/rad/intrapix_model.png" alt="Intrapix" />
-<em>DESCRIPTION OF THE IMAGE</em></p>
-</blockquote>
-
-<p>Links:</p>
-<ul>
-  <li>T. Pichon et al., <em>Quantix and Intrapix: test benches dedicated to quantumbefficiency measurement and intra-pixel response of detectors from VIS to LWIR</em>, <a href="https://doi.org/10.1117/12.2630232">Proc. of SPIE 12191, 121912I (2022)</a></li>
-</ul>
-
-<h3 id="quantum-efficiency">Quantum efficiency</h3>
-
-<p>Paragraph on Quantix experiment</p>
-
-<blockquote style="width: 55%; font-size: 0.9rem;">
-  <p><img src="/assets/rad/quantix_model.png" alt="Quantix" />
-<em>DESCRIPTION OF THE IMAGE</em></p>
-</blockquote>
-
-<p>Links:</p>
-<ul>
-  <li>T. Pichon et al., <em>Quantix and Intrapix: test benches dedicated to quantumbefficiency measurement and intra-pixel response of detectors from VIS to LWIR</em>, <a href="https://doi.org/10.1117/12.2630232">Proc. of SPIE 12191, 121912I (2022)</a></li>
-</ul>
 
         
       </section>

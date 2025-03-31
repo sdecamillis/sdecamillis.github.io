@@ -22,21 +22,37 @@ toc_sticky: true
 <i class="fas fa-laptop-code" style="margin: 10px;"></i>
 **Programming & Software**
 
-<i style="margin: 20px;"></i>
+* Modelling and data analysis: &ensp; 
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
+![Matlab](https://img.shields.io/badge/MATLAB%C2%AE-orange?style=plastic&amp)
 ![C](https://img.shields.io/badge/C-fff?logo=c&logoColor=A8B9CC)
 ![Fortran](https://img.shields.io/badge/Fortran-fff?logo=fortran&logoColor=734F96)
-![Bash](https://img.shields.io/badge/Bash-fff?logo=gnubash&logoColor=4EAA25)
-![SQL](https://img.shields.io/badge/SQL-fff?logo=postgresql&logoColor=4169E1)
-![Wolfram](https://img.shields.io/badge/Wolfram-fff?logo=wolfram&logoColor=DD1100)
-![LabVIEW](https://img.shields.io/badge/LabVIEW-fff?logo=labview&logoColor=FFDB00)  
-<i style="margin: 20px;"></i>
-![Git](https://img.shields.io/badge/Git-999?logo=git&logoColor=F05032)
-![ArcGIS](https://img.shields.io/badge/ArcGIS-999?logo=arcgis&logoColor=2C7AC3)
-![CAD](https://img.shields.io/badge/CAD-999?logo=autocad&logoColor=E51050)
+* Control software: &ensp; 
+![LabVIEW](https://img.shields.io/badge/LabVIEW-fff?logo=labview&logoColor=FFDB00) 
+![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
+* Image processing: &ensp; 
+![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
+![ImageJ](https://img.shields.io/badge/ImageJ-fff?logo=imagej&logoColor=00D8E0)
+![ParaView](https://img.shields.io/badge/ParaView-blue?)
+* Optical design: &ensp; 
+![Zemax](https://img.shields.io/badge/Zemax-fff?logo=ansys&logoColor=FFB71B)
+* Mechanical design: &ensp; 
+![SolidWorks](https://img.shields.io/badge/SolidWorks-fff?)
+![SolidEdge](https://img.shields.io/badge/SolidEdge-fff?)
+* Drawings: &ensp; 
 ![Inkscape](https://img.shields.io/badge/Inkscape-999?logo=inkscape&logoColor=000000)
 ![Blender](https://img.shields.io/badge/Blender-999?logo=blender&logoColor=E87D0D)
+* Version control: &ensp; 
+![Git](https://img.shields.io/badge/Git-999?logo=git&logoColor=F05032)
+* Editing: &ensp; 
 ![LaTeX](https://img.shields.io/badge/LaTeX-999?logo=latex&logoColor=008080)
+![LaTeX](https://img.shields.io/badge/LaTeX-999?logo=latex&logoColor=008080)
+* Project management: &ensp;
+![Jira](https://img.shields.io/badge/Jira-999?logo=jira&logoColor=0052CC)
+![Confluence](https://img.shields.io/badge/Confluence-999?logo=confluence&logoColor=172B4D)
+* Geographic Information Systems: &ensp;
+![QGIS](https://img.shields.io/badge/QGIS-999?logo=qgis&logoColor=589632)
+![ArcGIS](https://img.shields.io/badge/ArcGIS-999?logo=arcgis&logoColor=2C7AC3)
 
 <i class="fas fa-chart-line" style="margin: 10px;"></i>
 **Analysis**
