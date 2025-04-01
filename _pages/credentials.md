@@ -76,6 +76,7 @@ toc_sticky: true
 
 ---
 
+{% comment %}
 
 ### LeviNet
 
@@ -118,3 +119,4 @@ This route also involves swapping positions from the seats of a lecture theatre 
 - Extension of the science program by the addition of three new practicals.
 - Inclusion of a science communication component, to build complementary capacities in the new generation of scientists.
 - Increasingly positive student response.
+{% endcomment %}

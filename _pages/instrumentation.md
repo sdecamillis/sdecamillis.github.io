@@ -7,7 +7,7 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
-  overlay_image: assets/banner_research.jpg
+  overlay_image: assets/banner_instrumentation.jpg
   actions:
     - label: "Download CV"
       url: "assets/DeCamillis_CV.pdf"
