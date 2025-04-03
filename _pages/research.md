@@ -34,7 +34,7 @@ In this project, I characterized the luminescence response of YbTm nanoparticles
 This work was fundamental to successfully maximise the brightness of these particles at very low light excitation, demonstrating their viability for LED-driven scanning imaging.
 
 >![Characteristic emission of UCNPs](/assets/research/ucnps.png)
->*DESCRIPTION OF THE IMAGE*
+>*Controlling the composition of lanthanide nanoparticles is key for reducing the excitation laser intensity.*
 {: style="width: 75%; font-size: 0.9rem;"}
 
 References:
@@ -52,7 +52,7 @@ In the quest to make super-resolution microscopy easier and more applicable, Up-
 This project explored the non-linear optical properties of UCNPs to push their performance beyond their current limits. With the suitable excitation conditions and particle composition, these nanoprobes can enable simultaneous STED and SEE modalities, further enhancing the imaging resolution. These results were successfully applied in a biological environment.
 
 >![STED-SEE microscopy in cell](/assets/research/ucnp_in_cells.png)
->*Slices of a 3D confocal image of UCNP*
+>*Slices of a 3D confocal image of lanthanide nanoparticles uptaken by neuronal cells. Single nanoparticle imaging was achieved by combining the STED and SEE super-resolution techniques.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 References:

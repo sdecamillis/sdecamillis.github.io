@@ -22,7 +22,7 @@ feature_row:
   - image_path: /assets/feature_instrumentation.jpg
     alt: "Instrumentation"
     title: "Instrumentation"
-    excerpt: "Exploring the frontiers of science and uncovering new knowledge through innovative research."
+    excerpt: "Developing advanced technologies to drive innovation and enhance capabilities."
     url: "instrumentation"
     btn_label: "Read More"
     btn_class: "btn--inverse"
