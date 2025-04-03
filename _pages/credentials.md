@@ -56,14 +56,17 @@ toc_sticky: true
 
 <i class="fas fa-chart-line" style="margin: 10px;"></i>
 **Analysis**
-- Signal processing: time-frequency analysis, spectral decomposition, filtering techniques, signal denoising, feature extraction.
+- Signal processing: time-frequency analysis, spectral decomposition, filtering techniques, feature extraction.
 - Statistics: multivariate analysis, sampling techniques, hypothesis testing, principal component analysis, regression analysis, predictive modelling.
-- Modelling: nonlinear systems, finite-element analysis, time-series forecasting.
+- Modelling: nonlinear systems, finite-element analysis.
 
 <i class="fas fa-tools" style="margin: 10px;"></i>
 **Instrumentation:**
-- Optics: pulsed and continuous-wave lasers, interferometry, spectral analysis, frequency/phase feedback control, optical resonators, optical parametric oscillators (OPO), homodyne/heterodyne detection, I/Q modulation, quantum state tomography, photon statistics, spectral analysis.
-- Imaging: Doppler vibrometry, scanning near-field optical microscopy (SNOM), atomic force microscopy (AFM), vertical scanning interferometry (VSI); partial experience with scanning electron microscopy (SEM), tunnelling electron microscopy (TEM).
+-	Optics: Pulsed and continuous-wave lasers, polarisation control, harmonic generation, chirped pulse compensation, interferometry, spectral analysis, single-photon detection, fibre fusion splicing.
+-	Imaging: confocal microscopy, optical-based super-resolution imaging, optical coherent tomography, transmission tomography, tunnelling electron microscopy.
+-	Instrumentation for ultra-high vacuum and cryogenic conditions.
+- Analog/digital signal generation and processing.
+
 
 <i class="fas fa-briefcase" style="margin: 10px;"></i>
 **Competencies**
@@ -71,8 +74,8 @@ toc_sticky: true
 - Enduring capacity for learning.
 - Flexible, multidisciplinary aptitude.
 - Constructive mentoring and supervision.
-- Award-winning communication abilities.
-- Experience in boards, committees, and review panels.
+- Excellent communication abilities.
+- Experience in boards and review panels.
 
 ---
 
