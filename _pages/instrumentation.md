@@ -32,7 +32,7 @@ My main contributions have focused on the R&D work to deliver commercially viabl
 - modelling the residual optical distortion with numerical simulations in Zemax and experimental measurements,
 - establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance.
 
->![OCT interferometer](/assets/rad/oct_scanning_system.png)
+>![OCT interferometer](/assets/rad/oct_scanning_system.PNG)
 >*First prototype of the OCT scanning system: a fibre-spliced broadband interferometer is coupled with a multi-axis gantry system allowing the full sample rotation, the displacement of the focal plane and height adjustment.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
@@ -68,7 +68,7 @@ The first ever measurements of molecular dynamics in biomolecules in their neutr
 
 The observation of pure [quantum oscillations](/research/#attosecond-charge-migration) in biomolecules requires laser pulses shorter than the characteristic timescale of the electron dynamics. For these projects, I also had the possibility to work with the STARLIGHT team at the IFN-CNR facility in Milano to build and perform attosecond pump-probe experiments.
 
->![Pump-probe laser setup](/assets/rad/KEIRA_setup.png)
+>![Pump-probe laser setup](/assets/rad/KEIRA_setup.PNG)
 >*The high-sensitive mass spectrometer is integrated into the attosecond XUV-IR beamline.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
@@ -86,7 +86,7 @@ I joined the STARLIGHT team through the early stages of the project to build a n
 This work demonstrated the possibility to achieve few-femtosecond laser pulses with conditions of gas pressure inside the cell sustainable for the vacuum system.
 This work also represented a good learning about the hardware limitations for harmonic generation in gas media and inspired a new prototype of the gas cell, fabricated in fused silica.
 
->![VUV beamline development](/assets/rad/VUV_setup.png)
+>![VUV beamline development](/assets/rad/VUV_setup.PNG)
 >*Early experiments of ultrashort UV pulse generation. The process of third-harmonic generation in noble gases was attempted with a prototype metal cell.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
@@ -102,7 +102,7 @@ Links:
 
 Paragraph on Intrapix experiment
 
->![Intrapix](/assets/rad/intrapix_model.png)
+>![Intrapix](/assets/rad/intrapix_model.PNG)
 >*DESCRIPTION OF THE IMAGE*
 {: style="width: 55%; font-size: 0.9rem;"}
 

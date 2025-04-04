@@ -112,27 +112,6 @@ toc_sticky: true
 ---
 
 {% comment %}
-
-### LeviNet
-
-Since March 2022, I have served as an active member of the [LeviNet](https://www.levinet.org/) committee. LeviNet (Levitation Network for Advanced Quantum Technologies) is an international hub on the topic of optical levitation welcoming over 200 members from over 70 institutions around the world. It is established with the objective to create high-level knowledge sharing between institutions around the world, through conferences, workshops and scientific missions. In this role, I help with:
-- Strategic planning.
-- Promoting the network's vision to further extend its reach to international institutions.
-- Compiling recently published work on levitation, for extended visibility within the community.
-- Allocating 10 grants (₤5,000 funding for travel allowance, plus ₤5,000 for scientific equipment, for total funding of ₤100,000) for PhD students and early-career researchers to undertake short scientific missions, with the aim of building their own network and achieving their scientific goals. 
-
-
-### Micromole
-
-In November 2022 I joined Micromole, a start-up initiative on genomics and biosensing technologies, in the role of scientific advisor and independent consultant. Bringing in expertise from physics, sensing, and imaging, I have been contributing to:
-- Formulating the blueprints of fourth-generation sequencing devices.
-- High-level guidance on the integrative aspects of prototypes (from electrical engineering and microfluidics to STM imaging, quantum chemistry, and magneto-optical confinement).
-- Predicting technological challenges in short- and long-term developments.
-- Simulating noise sources, performing ground-up modelling from first-principles, and providing appropriate solutions to the most immediate challenges.
-- Exercising technical review authority on intellectual property.
-- Facilitating connections between key stakeholders and knowledge specialists.
-
-
 ### Academia
 
 When the goal is to add a small, original contribution to the humanity's collective knowledge, one is inevitably steered on a specialising path that will eventually see them as one of possibly few world experts on a particular topic. For me, that topic might be identified as *macroscopic optical levitation*, which is what I embarked on at the start of my PhD in February 2012. I consider myself also an expert on *hybrid entanglement of light*, specifically on how it can be used as a resource for quantum communication protocols. This is what I worked on as a Marie Curie fellow, under the EU-sponsored MSCA-IF mobility program. Since then, I have encountered many and varied topics of investigation — check my [research projects](/research/) page for a comprehensive view of my interests. The collective set of achievements that makes a good academic goes far beyond the specialised knowledge, to include:

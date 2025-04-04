@@ -26,17 +26,10 @@ feature_row:
     url: "instrumentation"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  #- image_path: /assets/feature_community.jpg
-  #  alt: "Community"
-  #  title: "Community"
-  #  excerpt: "Tending to the human side of knowledge exchange and promoting social dialogue."
-  #  url: "community"
-  #  btn_label: "Read More"
-  #  btn_class: "btn--inverse"
   #- image_path: /assets/feature_analytics.jpg
   #  alt: "Analytics"
   #  title: "Analytics"
-  #  excerpt: "Revealing data patterns to facilitate informed decisions and drive positive outcomes.#"
+  #  excerpt: "Revealing data patterns to facilitate informed decisions and drive positive outcomes."
   #  url: "analytics"
   #  btn_label: "Read More"
   #  btn_class: "btn--inverse"
@@ -49,6 +42,5 @@ I’m an optical physicist, fascinated by everything from optics and nanoscale i
 I like to explore a wide range of scientific fields, and when I’m not immersed in research and development, I’m often out hiking, climbing, or orienteering. 
 
 Feel free to explore the site, and if you'd like to get in touch, send an email!
-
 
 {% include feature_row %}

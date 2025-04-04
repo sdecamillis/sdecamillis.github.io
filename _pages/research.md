@@ -17,9 +17,6 @@ toc_icon: "gear"
 toc_sticky: true
 ---
 
-{% comment %}
-How to write multi-line comments
-{% endcomment %}
 
 ## Microscopy and nanomaterials
 
@@ -33,7 +30,7 @@ In this project, I characterized the luminescence response of YbTm nanoparticles
 
 This work was fundamental to successfully maximise the brightness of these particles at very low light excitation, demonstrating their viability for LED-driven scanning imaging.
 
->![Characteristic emission of UCNPs](/assets/research/ucnps.png)
+>![Characteristic emission of UCNPs](/assets/research/ucnps.PNG)
 >*Controlling the composition of lanthanide nanoparticles is key for reducing the excitation laser intensity.*
 {: style="width: 80%; font-size: 0.9rem;"}
 
@@ -72,12 +69,6 @@ Studies of the photo-dynamics of nucleobases, the primary building blocks of the
 In a bottom-up approach to understand the DNA resilience upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group, which are challenging to have readily available in isolated and neutral form.
 
 This project combined the molecular desorption technique for generating gas-phased intact molecules and a pump-probe scheme for [time-resolved mass spectrometry](/instrumentation/#pump-probe-experiments) to measure for the first time the de-excitation lifetime of neutral nucleosides from their first excited states.
-
-{% comment %}
-Studies of the primary building blocks of the DNA, the nucleobases, have uncovered an exceptional ability to disperse the absorbed energy in the surrounding environment through non-radiative relaxation pathways, within short timescales of picoseconds. In a bottom-up approach to understand the DNA resilience upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group. However, such relatively complex molecules had only been investigated in solutions due to the challenging task of producing them in vapour form.
-
-This project achieved a stable protocol for generating neutral nucleosides in gas phase and produced the first measurement of lifetime of the first excited state in all the DNA nucleosides following UV excitation.
-{% endcomment %}
 
 >![Relaxation diagram](/assets/research/relaxation_dynamics.png)
 >*Nucleosides are able to quench their excitation energy even more quickly than nucleobases thanks to non-radiative relaxation pathways mediated by sugar-to-base proton transfer.*
@@ -118,7 +109,7 @@ Interacting with the electron density of a molecule on a timescale sufficiently 
 This project was first in the generation and observation of coherent charge oscillations in molecules. These experiments were enabled by the interaction with the shortest laser pulses currently available.
 {% endcomment %}
 
->![Charge migration animation](/assets/research/charge_migration.png)
+>![Charge migration animation](/assets/research/charge_migration.PNG)
 >*The simulation of the temporal evolution of the charge distribution confirms the quantum beating of electron density at the amino group.*
 {: style="width: 90%; font-size: 0.9rem;"}
 
@@ -142,3 +133,7 @@ This project focused on extending the classic magneto-hydrodynamic model of the 
 
 References:
 - S. De Camillis et al., *Pressure anisotropy generation in a magnetized plasma configuration with a shear flow velocity*, [Plasma Physics and Controlled Fusion 58, 045007 (2016)](https://doi.org/10.1088/0741-3335/58/4/045007)
+
+{% comment %}
+Multi-line comments
+{% endcomment %}
