@@ -86,7 +86,7 @@ I joined the STARLIGHT team through the early stages of the project to build a n
 This work demonstrated the possibility to achieve few-femtosecond laser pulses with conditions of gas pressure inside the cell sustainable for the vacuum system.
 This work also represented a good learning about the hardware limitations for harmonic generation in gas media and inspired a new prototype of the gas cell, fabricated in fused silica.
 
->![VUV beamline development](/assets/rad/VUV_setup.png)
+>![VUV beamline development](/assets/rad/vuv_setup.png)
 >*Early experiments of ultrashort UV pulse generation. The process of third-harmonic generation in noble gases was attempted with a prototype metal cell.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
