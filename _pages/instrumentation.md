@@ -29,7 +29,7 @@ As part of the SmartLight team, I developed a novel solution able to accurately 
 
 My main contributions have focused on the R&D work to deliver commercially viable scanning systems for 3D crystal mapping. My projects included:
 - simplifying the design and manufacturing of the fibre-optic interferometer to minimise losses and improve optical stability,
-- modelling the residual [optical distortion](/analytics/#optical-distortion) with numerical simulations in Zemax and experimental measurements,
+- modelling the residual optical distortion with numerical simulations in Zemax and experimental measurements,
 - establishing alignment requirements and calibration protocols of the opto-mechanical components, to facilitate system installation and remote maintenance.
 
 >![OCT interferometer](/assets/rad/oct_scanning_system.png)
@@ -39,14 +39,14 @@ My main contributions have focused on the R&D work to deliver commercially viabl
 
 ### Dual-beam confocal microscope
 
-At Macquarie University, I developed and optimised a purpose-built bench-top scanning microscope to study [upconversion materials as fluorescent nanoprobes](/research/#non-linear-response-of-YbTm-particles). The key feature of this microscope was the generation and alignment of two infrared laser modes with different radial profiles: Gaussian and annular. The experiment required an accurate characterisation of the beam point-spread-functions to guarantee central symmetry and collinearity of the two lasers.
+At Macquarie University, I developed and optimised a purpose-built bench-top scanning microscope to study [upconversion materials as fluorescent nanoprobes](/research/#non-linear-response-of-lanthanide-nanoparticles). The key feature of this microscope was the generation and alignment of two infrared laser modes with different radial profiles: Gaussian and annular. The experiment required an accurate characterisation of the beam point-spread-functions to guarantee central symmetry and collinearity of the two lasers.
 
-The system included tunable excitation power, the selection of different spectral windows, accurate translation of the sample in the 3D space, and the capability of single-photon detection. All these features were computer-controlled by a Labview program that I developed uing a modular and scalable architecture.
+The system features the tunability of the excitation power, the selection of different spectral windows, accurate translation of the sample in the 3D space, and the capability of single-photon detection. All these features were computer-controlled by a Labview program that I developed uing a modular and scalable architecture.
 
 Beam alignment was fundamental to enable *[Stimulated Excitation Depletion microscopy](/research/#super-resolution-imaging)*, especially when applied to up-conversion nanoparticles. As a result of my system upgrades, the resolution performance of the instrument improved to the point of being able to resolve and characterise individual nanoparticles (50 nm), well beyond the diffraction limit.  
 
 >![Dual-beam optical setup](/assets/rad/sted_setup.jpg)
->*Table-top confocal microscope providing a 976 nm Gaussian beam as excitation source, a 808 nm annular beam as depletion laser, and detection in a tunable spectral window.*
+>*Table-top confocal microscope providing a 976 nm Gaussian beam as excitation source, a 808 nm annular beam as depletion laser, and detection in different spectral windows.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 Link:
@@ -59,14 +59,14 @@ Link:
 
 ### Pump-probe experiments
 
-Pump-probe laser experiments are currently the best candidate for studying electron dynamics in molecules. A laser pulse initiates the dynamics from a defined electronic state and its temporal evolution is probed at a given time delay by a second laser pulse, which induces molecular fragmentation. Due to the destructive nature of the experiment and the related uncertanties, the measurement is repeated a large number of time (10^4-10^5 mass spectra) to improve the overall sensitivity. 
+Pump-probe laser experiments are currently the best candidate for studying electron dynamics in molecules. A laser pulse initiates the dynamics from a defined electronic state and its temporal evolution is probed at a given time delay by a second laser pulse, which induces molecular fragmentation. Due to the destructive nature of the experiment and the related uncertainties, the measurement is repeated many time (10^4-10^5 mass spectra) to improve the overall sensitivity. 
 
 The first ever measurements of molecular dynamics in biomolecules in their neutral state were made possible thanks to:
 - the development of a custom mass spectrometer including a composite arrangement of electrodes with tunable voltages to optimise the signal precision and high ultra-vacuum conditions to reduce the background noise,
 - the generation of neutral isolated molecules in gas phase through gentle thermal desorption, carefully balancing the need for a high number of molecules at the interaction region without inducing their thermal decomposition,
-- the delivery of the pump and probe laser pulses with tunable and stabilized temporal delay, both focused and well aligned at the centre of the interaction region.
+- the delivery of the pump and probe laser pulses with accurate and variable temporal delay, both focused and well aligned at the centre of the interaction region.
 
-The observation of pure [quantum oscillations](/research/#attosecond-charge-migration) in biomolecules requires laser pulses shorter than the characteristic timescale of the electron dynamics. For this projects, I also had the possibility to work with the STARLIGHT team at the IFN-CNR facility in Milano to build and perform attosecond pump-probe experiments.
+The observation of pure [quantum oscillations](/research/#attosecond-charge-migration) in biomolecules requires laser pulses shorter than the characteristic timescale of the electron dynamics. For these projects, I also had the possibility to work with the STARLIGHT team at the IFN-CNR facility in Milano to build and perform attosecond pump-probe experiments.
 
 >![Pump-probe laser setup](/assets/rad/KEIRA_setup.png)
 >*The high-sensitive mass spectrometer is integrated into the attosecond XUV-IR beamline.*
@@ -83,7 +83,7 @@ Next-generation biomolecular pump-probe measurements require the adoption of ult
 
 I joined the STARLIGHT team through the early stages of the project to build a novel laser beamline producing few-fs UV pulses.  I was involved in the preliminary work assessing and optimising the optical conditions for the generation of UV pulsed radiation, compatible with the requirements of the attosecond beamline. Considering the limitations imposed by dispersive bulk materials for the generation of ultrashort UV pulses, we adopted the novel approach of strong-field interaction with gas-phased media characterised by limited optical dispersion.
 
-This work demonstrated the possibility to achieve few-femtosecond laser pulses with conditions of gas pressure inside the cell sustainable for the vacuum system. A FEW MORE DETAILS ABOUT THE PROJECT.
+This work demonstrated the possibility to achieve few-femtosecond laser pulses with conditions of gas pressure inside the cell sustainable for the vacuum system.
 This work also represented a good learning about the hardware limitations for harmonic generation in gas media and inspired a new prototype of the gas cell, fabricated in fused silica.
 
 >![VUV beamline development](/assets/rad/VUV_setup.png)

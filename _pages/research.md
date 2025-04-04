@@ -29,13 +29,13 @@ How to write multi-line comments
 Upconversion nanoparticles (UCNPs) are a unique class of optical nanomaterials doped with lanthanide ions. 
 Thanks to their excellent and flexible luminescence performance, they enabled significant advances in a broad range of applications, such as photo-activated drug delivery, IR vision extension, security ink, and [super-resolution imaging](/research/#super-resolution-imaging).
 
-In this project, I characterized the luminescence response of YbTm nanoparticles demonstrating how the right selection of particle composition and structure can dramatically enhance their emission properties. This single-particle study was made possible by developing a suitable [dual-beam confocal miscoscope](/instrumentation/#dual-beam-confocal-microscope) which enabled super-resolution imaging with single-photon detection. 
+In this project, I characterized the luminescence response of YbTm nanoparticles demonstrating how the right selection of particle composition and structure can dramatically enhance their emission properties. This single-particle study was made possible by developing a suitable [dual-beam confocal microscope](/instrumentation/#dual-beam-confocal-microscope) which enabled super-resolution imaging with single-photon detection. 
 
 This work was fundamental to successfully maximise the brightness of these particles at very low light excitation, demonstrating their viability for LED-driven scanning imaging.
 
 >![Characteristic emission of UCNPs](/assets/research/ucnps.png)
 >*Controlling the composition of lanthanide nanoparticles is key for reducing the excitation laser intensity.*
-{: style="width: 75%; font-size: 0.9rem;"}
+{: style="width: 80%; font-size: 0.9rem;"}
 
 References:
 - S. De Camillis et al., *Controlling the non-linear emission of upconversion nanoparticles to enhance super-resolution imaging performance*, [Nanoscale 12, 20347 (2020)](https://doi.org/10.1039/D0NR04809G)
@@ -45,14 +45,14 @@ References:
 
 ### Super-resolution imaging
 
-Light cannot be focused down indefinitively, ultimately limited by the phenomenon of diffraction. However, in the past few decades, clever solutions have been developped to circumvent such limit and observe objects as small as few tens of nanometres.
+Light cannot be focused down indefinitely, ultimately limited by the phenomenon of diffraction. However, in the past few decades, clever solutions have been developed to circumvent such limit and observe objects as small as few tens of nanometres.
 
-In the quest to make super-resolution microscopy easier and more applicable, Up-Convertion NanoParticles (UCNPs) have demonstrated great potentials. They have proved to be suitable for *STimulated Excitation Depletion* (STED) microscopy and *Super-linear Excitation-Emission* (SEE) microscopy, providing enhanced photostability and spectral selectivity compared to commonly used contrast agents. 
+In the quest to make super-resolution microscopy easier and more applicable, Up-Conversion NanoParticles (UCNPs) have demonstrated great potentials. They have proved to be suitable for *STimulated Excitation Depletion* (STED) microscopy and *Super-linear Excitation-Emission* (SEE) microscopy, providing enhanced photostability and spectral selectivity compared to commonly used contrast agents. 
 
 This project explored the non-linear optical properties of UCNPs to push their performance beyond their current limits. With the suitable excitation conditions and particle composition, these nanoprobes can enable simultaneous STED and SEE modalities, further enhancing the imaging resolution. These results were successfully applied in a biological environment.
 
 >![STED-SEE microscopy in cell](/assets/research/ucnp_in_cells.png)
->*Slices of a 3D confocal image of lanthanide nanoparticles uptaken by neuronal cells. Single nanoparticle imaging was achieved by combining the STED and SEE super-resolution techniques.*
+>*Slices of a 3D confocal image of lanthanide nanoparticles inside a neuronal cell, demonstrating the successful cellular uptake. Single nanoparticle imaging was achieved by combining the STED and SEE super-resolution techniques.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
 References:
@@ -67,21 +67,21 @@ References:
 
 The stability of the DNA molecules against photon irradiation has been crucial for the successful development of life on Earth. However, little is known about the fundamental processes responsible for the DNA photo-stability, due to its size and complexity.
 
-Studies of the photo-dynamics of nucleobases, the primary building blocks of the DNA, have highlighted the importance of non-radiative relaxation pathways responsible for dispersing the absorbed energy into the sourrounding environment, on timescales as short as picoseconds.
+Studies of the photo-dynamics of nucleobases, the primary building blocks of the DNA, have highlighted the importance of non-radiative relaxation pathways responsible for dispersing the absorbed energy into the surrounding environment, on timescales as short as picoseconds.
 
-In a bottom-up approach to understand the DNA resiliace upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group, which are challenging to have readily available in isolated and neutral form.
+In a bottom-up approach to understand the DNA resilience upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group, which are challenging to have readily available in isolated and neutral form.
 
 This project combined the molecular desorption technique for generating gas-phased intact molecules and a pump-probe scheme for [time-resolved mass spectrometry](/instrumentation/#pump-probe-experiments) to measure for the first time the de-excitation lifetime of neutral nucleosides from their first excited states.
 
 {% comment %}
-Studies of the primary building blocks of the DNA, the nucleobases, have uncovered an exceptional ability to disperse the absorbed energy in the sourrounding environment through non-radiative relaxation pathways, within short timescales of picoseconds. In a bottom-up approach to understand the DNA resiliace upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group. However, such relatively complex molecules had only been investigated in solutions due to the challeging task of producing them in vapour form.
+Studies of the primary building blocks of the DNA, the nucleobases, have uncovered an exceptional ability to disperse the absorbed energy in the surrounding environment through non-radiative relaxation pathways, within short timescales of picoseconds. In a bottom-up approach to understand the DNA resilience upon photon irradiation, the next step involved the study of the photo stability of nucleosides, the combination of the nucleobases with the sugar group. However, such relatively complex molecules had only been investigated in solutions due to the challenging task of producing them in vapour form.
 
-This project achieved a stable protocol for generating neutral nucleosides in gas phase and produced the first measurement of lifetime of the first excited state in all of the DNA nucleosides following UV excitation.
+This project achieved a stable protocol for generating neutral nucleosides in gas phase and produced the first measurement of lifetime of the first excited state in all the DNA nucleosides following UV excitation.
 {% endcomment %}
 
 >![Relaxation diagram](/assets/research/relaxation_dynamics.png)
->*DESCRIPTION OF THE IMAGE*
-{: style="width: 60%; font-size: 0.9rem;"}
+>*Nucleosides are able to quench their excitation energy even more quickly than nucleobases thanks to non-radiative relaxation pathways mediated by sugar-to-base proton transfer.*
+{: style="width: 65%; font-size: 0.9rem;"}
 
 References:
 - S. De Camillis at al., *Ultrafast Non-Radiative Decay of Gas-Phase Nucleosides*, [Physical Chemistry Chemical Physics 21, 23643 (2015)](https://dx.doi.org/10.1039/C5CP03806E)
@@ -91,12 +91,12 @@ References:
 
 ### Sugar-base charge transfer
 
-The experimental study of fragmentation processes in ionised molecules is fundamental to learn more about molecular reactivity and predict the likehood of specific dissociative pathways.
+The experimental study of fragmentation processes in ionised molecules is fundamental to learn more about molecular reactivity and predict the likelihood of specific dissociative pathways.
 
 In this project, the fragmentation of nucleosides was explored specifically upon ionisation induced by either photon- or proton- irradiation. These experiments demonstrated how the binding energy of local sub-structures determines the charge localisation upon dissociative ionisation.
 
 >![Diagram of charge transfer](/assets/research/charge_transfer.png)
->*Diagram of the charge transfer occurring in amino-acids upon exposure to ionisating radiation.*
+>*The fragmentation process of nucleosides prompted by ionising radiation is influenced by the binding energy of the sugar moiety, effectively determining the charge localisation upon ionisation.*
 {: style="width: 55%; font-size: 0.9rem;"}
 
 References:
@@ -113,7 +113,7 @@ In large molecules, prompt ionisation processes can lead to the generation of an
 This project was first in the observation of coherent charge oscillations in biomolecules, by combining the cutting-edge laser technology with accurate time-resolved mass spectrometry. This pioneering result represented a fundamental step towards the possibility of steering dissociative dynamics and ultimately aiming to the control of the molecular reactivity.
 
 {% comment %}
-Interacting with the electron density of a molecule on a timescale sufficiently short to preceed any nuclear influence is a fundamental step towards the possibility of steering dissociative processes and ultimately achieving reactivity control.
+Interacting with the electron density of a molecule on a timescale sufficiently short to precede any nuclear influence is a fundamental step towards the possibility of steering dissociative processes and ultimately achieving reactivity control.
 
 This project was first in the generation and observation of coherent charge oscillations in molecules. These experiments were enabled by the interaction with the shortest laser pulses currently available.
 {% endcomment %}
@@ -132,9 +132,9 @@ References:
 
 ### Dynamics at the magnetosphere
 
-The magnetic field sourrounding the Earth acts as powerful shield against the constant stream of charged particles emitted by the Sun, which would otherwise directly impact our life on Earth. The dynamics of such solar wind at the boundary of the magnetosphere is of primary interest for space plasma modeling, as it involves a wide range of spatial and temporal scales.
+The magnetic field surrounding the Earth acts as powerful shield against the constant stream of charged particles emitted by the Sun, which would otherwise directly impact our life on Earth. The dynamics of such solar wind at the boundary of the magnetosphere is of primary interest for space plasma modelling, as it involves a wide range of spatial and temporal scales.
 
-This project focused on extending the classic magneto-hydrodynamic model of the plasma fluid evolution to include anysotropic variations of particle dynamics, either parallel or perpendicular to the field lines. This model enabled the study of several non-linear processes occurring at the magnetosphere and their competing evolution depending on the dynamic regime of the plasma.
+This project focused on extending the classic magneto-hydrodynamic model of the plasma fluid evolution to include anisotropic variations of particle dynamics, either parallel or perpendicular to the field lines. This model enabled the study of several non-linear processes occurring at the magnetosphere and their competing evolution depending on the dynamic regime of the plasma.
 
 >![Plasma dynamics](/assets/research/plasma_dynamics.png)
 >*The shear flow of plasma at the boundary of the magnetosphere drives the generation of vortices (non-linear Kelvin-Helmholtz instability), which provides the conditions for secondary magneto-fluid instability.*

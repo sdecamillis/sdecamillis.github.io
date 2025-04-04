@@ -23,6 +23,38 @@ toc_sticky: true
 **Programming & Software**
 
 * Modelling and data analysis: &ensp; 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+![Matlab](https://img.shields.io/badge/MATLAB%C2%AE-orange)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=000)
+![Fortran](https://img.shields.io/badge/Fortran-734F96?logo=fortran&logoColor=fff)
+* Control software: &ensp; 
+![LabVIEW](https://img.shields.io/badge/LabVIEW-FFDB00?logo=labview&logoColor=000) 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+* Image processing: &ensp; 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+![ImageJ](https://img.shields.io/badge/ImageJ-04b9bf?logo=imagej&logoColor=fff)
+![ParaView](https://img.shields.io/badge/ParaView-9F2121)
+* Optical design: &ensp; 
+![Zemax](https://img.shields.io/badge/Zemax-FFB71B?logo=ansys&logoColor=000)
+* Mechanical design: &ensp; 
+![SolidWorks](https://img.shields.io/badge/SolidWorks-DA291C)
+![SolidEdge](https://img.shields.io/badge/SolidEdge-1b3e82)
+* Drawings: &ensp; 
+![Inkscape](https://img.shields.io/badge/Inkscape-000000?logo=inkscape&logoColor=fff)
+![Blender](https://img.shields.io/badge/Blender-E87D0D?logo=blender&logoColor=fff)
+* Version control: &ensp; 
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)
+* Editing: &ensp; 
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=fff)
+![Office](https://img.shields.io/badge/Office-a8340d?logo=microsoft&logoColor=008080)
+* Project management: &ensp;
+![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=fff)
+![Confluence](https://img.shields.io/badge/Confluence-172B4D?logo=confluence&logoColor=fff)
+* Geographic Information Systems: &ensp;
+![QGIS](https://img.shields.io/badge/QGIS-589632?logo=qgis&logoColor=fff)
+![ArcGIS](https://img.shields.io/badge/ArcGIS-2C7AC3?logo=arcgis&logoColor=fff)
+{% comment %}
+* Modelling and data analysis: &ensp; 
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
 ![Matlab](https://img.shields.io/badge/MATLAB%C2%AE-orange?style=plastic&amp)
 ![C](https://img.shields.io/badge/C-fff?logo=c&logoColor=A8B9CC)
@@ -46,13 +78,14 @@ toc_sticky: true
 ![Git](https://img.shields.io/badge/Git-999?logo=git&logoColor=F05032)
 * Editing: &ensp; 
 ![LaTeX](https://img.shields.io/badge/LaTeX-999?logo=latex&logoColor=008080)
-![LaTeX](https://img.shields.io/badge/LaTeX-999?logo=latex&logoColor=008080)
+![Office](https://img.shields.io/badge/Office-999?logo=office&logoColor=008080)
 * Project management: &ensp;
 ![Jira](https://img.shields.io/badge/Jira-999?logo=jira&logoColor=0052CC)
 ![Confluence](https://img.shields.io/badge/Confluence-999?logo=confluence&logoColor=172B4D)
 * Geographic Information Systems: &ensp;
 ![QGIS](https://img.shields.io/badge/QGIS-999?logo=qgis&logoColor=589632)
 ![ArcGIS](https://img.shields.io/badge/ArcGIS-999?logo=arcgis&logoColor=2C7AC3)
+{% endcomment %}
 
 <i class="fas fa-chart-line" style="margin: 10px;"></i>
 **Analysis**
@@ -75,7 +108,6 @@ toc_sticky: true
 - Flexible, multidisciplinary aptitude.
 - Constructive mentoring and supervision.
 - Excellent communication abilities.
-- Experience in boards and review panels.
 
 ---
 

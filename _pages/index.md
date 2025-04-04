@@ -44,8 +44,11 @@ feature_row:
 
 Welcome to my website!
 
-...
+I’m an optical physicist, fascinated by everything from optics and nanoscale imaging to numerical modelling and data visualisation. 
 
-Learn more more about my projects via the links below.
+I like to explore a wide range of scientific fields, and when I’m not immersed in research and development, I’m often out hiking, climbing, or orienteering. 
+
+Feel free to explore the site, and if you'd like to get in touch, send an email!
+
 
 {% include feature_row %}
