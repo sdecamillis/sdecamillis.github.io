@@ -317,7 +317,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-gear"></i> Instrumentation</h4></header>
-              <ul class="toc__menu"><li><a href="#optical-imaging">Optical imaging</a><ul><li><a href="#3d-optical-coherent-tomography">3D optical coherent tomography</a></li><li><a href="#dual-beam-confocal-microscope">Dual-beam confocal microscope</a></li></ul></li><li><a href="#ultrafast-mass-spectroscopy">Ultrafast mass spectroscopy</a><ul><li><a href="#pump-probe-experiments">Pump-probe experiments</a></li><li><a href="#ultrashort-vuv-pulses">Ultrashort VUV pulses</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#optical-imaging">Optical imaging</a><ul><li><a href="#3d-optical-coherent-tomography">3D optical coherent tomography</a></li><li><a href="#dual-beam-confocal-microscope">Dual-beam confocal microscope</a></li></ul></li><li><a href="#ultrafast-mass-spectroscopy">Ultrafast mass spectroscopy</a><ul><li><a href="#pump-probe-experiments">Pump-probe experiments</a></li><li><a href="#ultrashort-vuv-pulses">Ultrashort VUV pulses</a></li></ul></li><li><a href="#cmos-detectors">CMOS detectors</a><ul><li><a href="#intra-pixel-response">Intra-pixel response</a></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -338,7 +338,7 @@
 </ul>
 
 <blockquote style="width: 65%; font-size: 0.9rem;">
-  <p><img src="/assets/rad/oct_scanning_system.png" alt="OCT interferometer" />
+  <p><img src="/assets/rad/oct_scanning_system.PNG" alt="OCT interferometer" />
 <em>First prototype of the OCT scanning system: a fibre-spliced broadband interferometer is coupled with a multi-axis gantry system allowing the full sample rotation, the displacement of the focal plane and height adjustment.</em></p>
 </blockquote>
 
@@ -377,7 +377,7 @@
 <p>The observation of pure <a href="/research/#attosecond-charge-migration">quantum oscillations</a> in biomolecules requires laser pulses shorter than the characteristic timescale of the electron dynamics. For these projects, I also had the possibility to work with the STARLIGHT team at the IFN-CNR facility in Milano to build and perform attosecond pump-probe experiments.</p>
 
 <blockquote style="width: 65%; font-size: 0.9rem;">
-  <p><img src="/assets/rad/KEIRA_setup.png" alt="Pump-probe laser setup" />
+  <p><img src="/assets/rad/KEIRA_setup.PNG" alt="Pump-probe laser setup" />
 <em>The high-sensitive mass spectrometer is integrated into the attosecond XUV-IR beamline.</em></p>
 </blockquote>
 
@@ -397,13 +397,33 @@
 This work also represented a good learning about the hardware limitations for harmonic generation in gas media and inspired a new prototype of the gas cell, fabricated in fused silica.</p>
 
 <blockquote style="width: 65%; font-size: 0.9rem;">
-  <p><img src="/assets/rad/VUV_setup.png" alt="VUV beamline development" />
+  <p><img src="/assets/rad/vuv_setup.png" alt="VUV beamline development" /> 
 <em>Early experiments of ultrashort UV pulse generation. The process of third-harmonic generation in noble gases was attempted with a prototype metal cell.</em></p>
 </blockquote>
 
 <p>Links:</p>
 <ul>
   <li><a href="https://atto.cfel.de/research/light_sources/few_femtosecond_uv_light_sources/">Few-fs UV light generation</a></li>
+</ul>
+
+<h2 id="cmos-detectors">CMOS detectors</h2>
+
+<h3 id="intra-pixel-response">Intra-pixel response</h3>
+
+<p>Modern space missions are capable of capturing stunning images of astrophysical objects, thanks to the tech advancements in the development of array detectors with high gain and low noise. However, when studying very large objects like galaxies, any additional information becomes invaluable. For instance, the EUCLID space mission seeks to precisely measure the shape of galaxies in relation to the distribution of dark matter along the line of sight. In such cases, understanding any variations in the intra-pixel response of the detector is crucial.</p>
+
+<p>The experimental INTRAPIX project, conducted at the French research center CEA-Leti, aims to characterize the sub-pixel response of array detectors by using an illumination pattern with high spatial frequencies. A series of images captured with this illumination can be analyzed to reconstruct the detector’s response at a higher resolution.</p>
+
+<p>As part of this project, I was responsible for developing and testing various opto-mechanical components, including the vacuum system, cryostat, and high-precision piezoelectric stage, as well as implementing modular control software to automate the system’s operations.</p>
+
+<blockquote style="width: 55%; font-size: 0.9rem;">
+  <p><img src="/assets/rad/intrapix_model.PNG" alt="Intrapix" />
+<em>Schematic of the optical experimental setup INTRAPIX positioned inside the high-vacuum cryostat.</em></p>
+</blockquote>
+
+<p>Links:</p>
+<ul>
+  <li>T. Pichon et al., <em>Quantix and Intrapix: test benches dedicated to quantumbefficiency measurement and intra-pixel response of detectors from VIS to LWIR</em>, <a href="https://doi.org/10.1117/12.2630232">Proc. of SPIE 12191, 121912I (2022)</a></li>
 </ul>
 
 
