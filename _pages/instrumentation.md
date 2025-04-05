@@ -115,9 +115,12 @@ Links:
 
 
 {% comment %}
-### Quantum efficiency
+### Radiation effects and quantum efficiency
 
-Paragraph on Quantix experiment
+Array detectors used for space applications have to undergo key optical characterisation, such as the effects of particle irradiation and the measurement of quantum efficiency.
+
+Array detectors for space applications are designed to withstand the damaging stream of charged radiation.
+In particular, studying the effects of energy deposition occurring both on the active medium of the detector and the substrate.
 
 >![Quantix](/assets/rad/quantix_model.png)
 >*DESCRIPTION OF THE IMAGE*
