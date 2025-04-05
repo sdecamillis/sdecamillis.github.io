@@ -86,7 +86,7 @@ I joined the STARLIGHT team through the early stages of the project to build a n
 This work demonstrated the possibility to achieve few-femtosecond laser pulses with conditions of gas pressure inside the cell sustainable for the vacuum system.
 This work also represented a good learning about the hardware limitations for harmonic generation in gas media and inspired a new prototype of the gas cell, fabricated in fused silica.
 
->![VUV beamline development](/assets/rad/vuv_setup.png)
+>![VUV beamline development](/assets/rad/vuv_setup.png) 
 >*Early experiments of ultrashort UV pulse generation. The process of third-harmonic generation in noble gases was attempted with a prototype metal cell.*
 {: style="width: 65%; font-size: 0.9rem;"}
 
@@ -94,22 +94,27 @@ Links:
 - [Few-fs UV light generation](https://atto.cfel.de/research/light_sources/few_femtosecond_uv_light_sources/)
 
 
-{% comment %}
+
 ## CMOS detectors
 
 
 ### Intra-pixel response
 
-Paragraph on Intrapix experiment
+Modern space missions are capable of capturing stunning images of astrophysical objects, thanks to the tech advancements in the development of array detectors with high gain and low noise. However, when studying very large objects like galaxies, any additional information becomes invaluable. For instance, the EUCLID space mission seeks to precisely measure the shape of galaxies in relation to the distribution of dark matter along the line of sight. In such cases, understanding any variations in the intra-pixel response of the detector is crucial.
+
+The experimental INTRAPIX project, conducted at the French research center CEA-Leti, aims to characterize the sub-pixel response of array detectors by using an illumination pattern with high spatial frequencies. A series of images captured with this illumination can be analyzed to reconstruct the detector's response at a higher resolution.
+
+As part of this project, I was responsible for developing and testing various opto-mechanical components, including the vacuum system, cryostat, and high-precision piezoelectric stage, as well as implementing modular control software to automate the system's operations.
 
 >![Intrapix](/assets/rad/intrapix_model.PNG)
->*DESCRIPTION OF THE IMAGE*
+>*Schematic of the optical experimental setup INTRAPIX positioned inside the high-vacuum cryostat.*
 {: style="width: 55%; font-size: 0.9rem;"}
 
 Links:
 - T. Pichon et al., *Quantix and Intrapix: test benches dedicated to quantumbefficiency measurement and intra-pixel response of detectors from VIS to LWIR*, [Proc. of SPIE 12191, 121912I (2022)](https://doi.org/10.1117/12.2630232)
 
 
+{% comment %}
 ### Quantum efficiency
 
 Paragraph on Quantix experiment
@@ -119,5 +124,5 @@ Paragraph on Quantix experiment
 {: style="width: 55%; font-size: 0.9rem;"}
 
 Links:
-- T. Pichon et al., *Quantix and Intrapix: test benches dedicated to quantumbefficiency measurement and intra-pixel response of detectors from VIS to LWIR*, [Proc. of SPIE 12191, 121912I (2022)](https://doi.org/10.1117/12.2630232)
+- T. Pichon et al., *Quantix and Intrapix: test benches dedicated to quantum efficiency measurement and intra-pixel response of detectors from VIS to LWIR*, [Proc. of SPIE 12191, 121912I (2022)](https://doi.org/10.1117/12.2630232)
 {% endcomment %}
