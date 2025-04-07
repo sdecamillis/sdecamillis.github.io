@@ -6,9 +6,9 @@ main:
     url: /research/
   - title: "Instrumentation"
     url: /instrumentation/
-  #- title: "Analytics"
-  #  url: /analytics/
+#  - title: "Analytics"
+#    url: /analytics/
   - title: "Credentials"
     url: /credentials/
   - title: "CV"
-    url: /assets/DeCamillis_CV.pdf
+    url: /assets/CV_DeCamillis.pdf
