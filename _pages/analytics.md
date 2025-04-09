@@ -17,6 +17,24 @@ toc_icon: "gear"
 toc_sticky: true
 ---
 
+
+### Automated 3D data visualisation
+
+![ParaView](https://img.shields.io/badge/ParaView-blue?style=plastic&amp)
+![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
+
+The project of [volumetric inclusion mapping of crystals](/instrumentation/#3d-optical-coherent-tomography) at the ANU is based on a multi-view scanning approach, which involves calculating multiple layers to enhance feature extraction. For a reliable data review, it is crucial to effectively visualize these layers across all individual 3D views.
+
+To accomplish this, I developed a pipeline that selects different layers, applies pre-defined masks, visualizes the data using effective colormaps, and captures screenshots from the most appropriate angles. This data visualization was enabled by utilising the well-documented Python API of Paraview software.
+
+>![SIM simulation](/assets/analytics/crystal_crack.png)
+>*3D visualisation of the optical rays and amplitude, with the application of a mask to analyse the internal plane feature of the crystal.*
+{: style="width: 70%; font-size: 0.9rem;"}
+
+Among the adopted techniques:
+- Multi-dimensional data visualisation
+
+
 ### Correcting for optical distortions
 
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
@@ -24,9 +42,13 @@ toc_sticky: true
 ![SciPy](https://img.shields.io/badge/SciPy-aaa?logo=scipy&logoColor=8CAAE6)
 ![Zemax](https://img.shields.io/badge/Zemax-fff?logo=ansys&logoColor=FFB71B)
 
-Our Optical Coherent Tomography system utilizes galvanometer mirrors as fast laser scanning solution, which can introduce optical distortions when extended to large fields of view. To minimize image degradation caused by these distortions, I developed an optical model focusing on two key components: distortion along the direction of laser propagation (axial distortion) and ray tilt (telecentricity). 
 
-I conducted numerical simulations using Zemax software and automated the process through the Python-based API. Then, by applying a non-linear regression to the experimental data, I validated the accuracy of the model and determined the precise parameters.
+Optical systems are often inherently subject to distortions, which can compromise the accuracy of the instrument. This was the case with the [3D scanning systems](/instrumentation/#3d-optical-coherent-tomography) I developed at the ANU. To mitigate these effects, the only practical solution was to model the distortion and apply a correction algorithm at post-processing.
+
+I created several numerical simulations of our scanning system under various conditions by using the Zemax software, and automated the data collection process with the Python-based API. After analyzing the simulation results, I developed an optical model that focused on two key factors: distortion along the direction of laser propagation (axial distortion) and ray tilt (telecentricity).
+
+Finally, by applying non-linear regression to the experimental data, I validated the model’s accuracy, which was then used to correct the optical distortions.
+
 
 >![Optical distortion and correction model](/assets/analytics/axial_distortion.png)
 >*Graphical representation of axial distortion (left) and ray tilt distortion (right). The experimental data, available only in the first case, is depicted using color, while the numerical model is represented by black lines or arrows.*
@@ -37,7 +59,7 @@ Among the adopted techniques:
 - Model validation
 
 
-### Ultrafast charge oscillation
+### Measuring ultrafast charge oscillation
 
 ![Matlab](https://img.shields.io/badge/MATLAB%C2%AE-orange?style=plastic&amp)
 
@@ -71,23 +93,6 @@ NL-SIM is expected to be a suitable technique for upconversion nanoparticles, co
 Among the adopted techniques:
 - 2D Fourier transform
 - Spectral domain manipulation
-
-
-### Automated 3D data visualisation
-
-![ParaView](https://img.shields.io/badge/ParaView-blue?style=plastic&amp)
-![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
-
-Our volumetric inclusion mapping of crystals is based on a multi-view scanning approach, which involves calculating multiple layers to enhance feature extraction. For a reliable data review, it is crucial to effectively visualize these layers across all individual 3D views.
-
-To accomplish this, I developed a pipeline that selects different layers, applies pre-defined masks, visualizes the data using effective colormaps, and captures screenshots from the most appropriate angles. This data visualization was enabled by the well-documented Python API of Paraview software.
-
->![SIM simulation](/assets/analytics/crystal_crack.png)
->*3D visualisation of the optical rays and amplitude, with the application of a mask to analyse the internal plane feature of the crystal.*
-{: style="width: 70%; font-size: 0.9rem;"}
-
-Among the adopted techniques:
-- Multi-dimensional data visualisation
 
 
 ### Solar energy monitoring

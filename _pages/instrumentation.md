@@ -25,7 +25,7 @@ toc_sticky: true
 
 Mapping inclusions inside a high-refractive material such as a gemstone is not simple task. High-energy imaging struggles to detect inclusions, as they are often made of the same material of the bulk crystal. Visible and infrared imaging are more suitable candidates due to their sensitivity to matter composition and structure. However, at lower photon-energy the effects of refraction significantly increase the complexity of any optical investigation. 
 
-As part of the SmartLight team, I developed a novel solution able to accurately locate defects present inside the sample, without the application of any refractive index matching medium. For a complete reconstruction of the volumetric information, the sample is optically scanned using the Optical Coherent Tomography (OCT) technique. Several 3D images are acquired from different directions, covering almost the full solid angle of a sphere.
+As part of the SmartLight team at the Australian National University, I developed a novel solution able to accurately locate defects present inside the sample, without the application of any refractive index matching medium. For a complete reconstruction of the volumetric information, the sample is optically scanned using the Optical Coherent Tomography (OCT) technique. Several 3D images are acquired from different directions, covering almost the full solid angle of a sphere.
 
 My main contributions have focused on the R&D work to deliver commercially viable scanning systems for 3D crystal mapping. My projects included:
 - simplifying the design and manufacturing of the fibre-optic interferometer to minimise losses and improve optical stability,
