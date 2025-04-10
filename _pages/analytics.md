@@ -32,7 +32,9 @@ To accomplish this, I developed a pipeline that selects different layers, applie
 {: style="width: 70%; font-size: 0.9rem;"}
 
 Among the adopted techniques:
+- Data manipulation and filtering
 - Multi-dimensional data visualisation
+- Automated pipeline through the Python-based API
 
 
 ### Correcting for optical distortions
@@ -43,9 +45,9 @@ Among the adopted techniques:
 ![Zemax](https://img.shields.io/badge/Zemax-fff?logo=ansys&logoColor=FFB71B)
 
 
-Optical systems are often inherently subject to distortions, which can compromise the accuracy of the instrument. This was the case with the [3D scanning systems](/instrumentation/#3d-optical-coherent-tomography) I developed at the ANU. To mitigate these effects, the only practical solution was to model the distortion and apply a correction algorithm at post-processing.
+Optical systems are often inherently subject to distortions, which can compromise the accuracy of the instrument. This was the case with the [3D scanning systems](/instrumentation/#3d-optical-coherent-tomography) I developed at the ANU. To mitigate these effects, the only practical solution was to model the distortion and apply a correction algorithm in data post-processing.
 
-I created several numerical simulations of our scanning system under various conditions by using the Zemax software, and automated the data collection process with the Python-based API. After analyzing the simulation results, I developed an optical model that focused on two key factors: distortion along the direction of laser propagation (axial distortion) and ray tilt (telecentricity).
+I created several numerical simulations of our scanning system under various conditions by using the Zemax software, and automated the execution with the Python-based API. After analyzing the simulation results, I developed an optical model that focused on two key factors: distortion along the direction of laser propagation (axial distortion) and ray tilt (telecentricity).
 
 Finally, by applying non-linear regression to the experimental data, I validated the model’s accuracy, which was then used to correct the optical distortions.
 
@@ -57,17 +59,28 @@ Finally, by applying non-linear regression to the experimental data, I validated
 Among the adopted techniques:
 - Linear and non-linear regression
 - Model validation
+- Automated pipeline through the Python-based API
 
 
 ### Measuring ultrafast charge oscillation
 
 ![Matlab](https://img.shields.io/badge/MATLAB%C2%AE-orange?style=plastic&amp)
 
+A rigorous statistical analysis of the data is often necessary to confirm the presence of a pattern beyond the experimental uncertainty. For example, such an analysis was essential in my PhD project to validate the first observation of [quantum charge oscillations in molecules](/research/#attosecond-charge-migration).
+
+The typical fragmentation signal observed in this experiment features a resonant peak near zero delay, followed by an exponential decay at later times. This behavior can be accurately modeled using a convolution function that combines a Gaussian distribution with an exponential decay. The optimal fit to the experimental data was obtained through a multi-variable regression approach.
+
+Precisely characterizing the slow fragmentation dynamics was critical for isolating the faster and weaker periodic signal. The figure below illustrates the oscillatory pattern that becomes clearly visible after subtracting the best-fit convolution curve from the raw data. To further analyze the quantum beating phenomenon, I performed a time-gated spectral analysis, which uncovered a variable oscillatory trend with a dominant frequency component at 0.23 PHz — equivalent to a period of approximately 4 femtoseconds. 
+
+{% comment %}
+
 Ultrafast mass spectrometry experiments produce large datasets of time-dependent molecular fragmentation patterns. The analysis requires an initial step of data preparation, involving the integration of each fragment peak from the mass spectrum after background subtraction, followed by averaging over thousands of acquisitions at each time delay.
 
 Tipically, the fragmentation yield exhibits two components: a resonant production near zero delay and an exponential decay at later delays. This behavior can be modeled using a convolution function that combines a Gaussian and an exponential curve. The optimal fit for the experimental data was determined using a multi-variable regression approach.
 
 In experiments involving attosecond-driven charge dynamics, a distinct oscillation in the fragmentation signal is observed at positive delays (see figure). This oscillation becomes clearer after subtracting the best-fitting convolution function. The quantum beating is not characterised by a constant period. Time-gated spectral analysis revealed that the oscillation begins with two frequency components and ultimately converges to a dominant frequency of 0.23 PHz, corresponding to a period of about 4 femtoseconds.
+
+{% endcomment %}
 
 >![Time-resolved charge oscillation](/assets/analytics/phe_charge_oscillation.png)
 >*Quantum oscillations of the electron density are observed in the fragmentation yield, after accounting for the slower molecular dynamics using the Gaussian-exponential convolution function. At longer time delays, the charge oscillations exhibit a dominant frequency of 0.23 PHz.*
