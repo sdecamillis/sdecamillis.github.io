@@ -10,7 +10,7 @@ header:
   overlay_image: assets/banner_instrumentation.jpg
   actions:
     - label: "Download CV"
-      url: "assets/DeCamillis_CV.pdf"
+      url: "assets/CV_DeCamillis.pdf"
 toc: true
 toc_label: "Instrumentation"
 toc_icon: "gear"

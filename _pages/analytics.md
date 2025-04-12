@@ -10,7 +10,7 @@ header:
   overlay_image: assets/banner_analytics.jpg
   actions:
     - label: "Download CV"
-      url: "assets/Guccione_CV.pdf"
+      url: "assets/CV_DeCamillis.pdf"
 toc: true
 toc_label: "Analytics"
 toc_icon: "gear"
