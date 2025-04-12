@@ -6,8 +6,8 @@ main:
     url: /research/
   - title: "Instrumentation"
     url: /instrumentation/
-#  - title: "Analytics"
-#    url: /analytics/
+  - title: "Analytics"
+    url: /analytics/
   - title: "Credentials"
     url: /credentials/
   - title: "CV"

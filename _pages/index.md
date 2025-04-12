@@ -26,13 +26,13 @@ feature_row:
     url: "instrumentation"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-#  - image_path: /assets/feature_analytics.jpg
-#    alt: "Analytics"
-#    title: "Analytics"
-#    excerpt: "Revealing data patterns to facilitate informed decisions and drive positive outcomes."
-#    url: "analytics"
-#    btn_label: "Read More"
-#    btn_class: "btn--inverse"
+  - image_path: /assets/feature_analytics.jpg
+    alt: "Analytics"
+    title: "Analytics"
+    excerpt: "Revealing data patterns to facilitate informed decisions and drive positive outcomes."
+    url: "analytics"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
 Welcome to my website!

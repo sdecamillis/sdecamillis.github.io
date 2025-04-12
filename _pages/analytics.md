@@ -18,7 +18,7 @@ toc_sticky: true
 ---
 
 
-### Automated 3D data visualisation
+### Composite 3D visualisation
 
 ![ParaView](https://img.shields.io/badge/ParaView-blue?style=plastic&amp)
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
@@ -62,7 +62,7 @@ Among the adopted techniques:
 - Automated pipeline through the Python-based API
 
 
-### Measuring ultrafast charge oscillation
+### Ultrafast change oscillations
 
 ![Matlab](https://img.shields.io/badge/MATLAB%C2%AE-orange?style=plastic&amp)
 
@@ -82,7 +82,7 @@ In experiments involving attosecond-driven charge dynamics, a distinct oscillati
 
 {% endcomment %}
 
->![Time-resolved charge oscillation](/assets/analytics/phe_charge_oscillation.png)
+>![Time-resolved charge oscillation](/assets/analytics/phe_charge_oscillation.PNG)
 >*Quantum oscillations of the electron density are observed in the fragmentation yield, after accounting for the slower molecular dynamics using the Gaussian-exponential convolution function. At longer time delays, the charge oscillations exhibit a dominant frequency of 0.23 PHz.*
 {: style="width: 70%; font-size: 0.9rem;"}
 
@@ -95,12 +95,18 @@ Among the adopted techniques:
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
 ![NumPy](https://img.shields.io/badge/NumPy-aaa?logo=numpy&logoColor=013243)
 
-Non-linear Structured Illumination Microscopy (NL-SIM) relies on the interference of a series of patterned light applied to a sample, enabling the extraction of information at higher spatial frequencies and thus allowing for image reconstruction with enhanced resolution.
+Numerical modelling is a powerful tool for evaluating system performance and supporting informed decision-making. While working at Macquarie University on super-resolution imaging, I was asked whether the [lanthanide nanoparticles](/research/#non-linear-response-of-lanthanide-nanoparticles) developed by our research group were suitable for a technique called Non-linear Structured Illumination Microscopy (NL-SIM). NL-SIM enhances image resolution by extracting high-frequency spatial information through extensive experimental data and a well-defined data processing pipeline.
+
+To address this question, I simulated experimental data using an estimated point spread function of [our microscope](/instrumentation/#dual-beam-confocal-microscope) and implemented the NL-SIM reconstruction algorithm based on established methods in the scientific literature. This approach confirmed that our nanoparticles were suitable for enabling NL-SIM and demonstrated a fourfold improvement in resolution under the experimental conditions of our imaging system.
+
+{% comment %}
+Non-linear Structured Illumination Microscopy (NL-SIM) relies on the interference of a series of patterned light applied to a sample, enabling the extraction of spatial information at higher frequencies and thus allowing for image reconstruction with enhanced resolution.
 
 NL-SIM is expected to be a suitable technique for upconversion nanoparticles, considering their strong non-linear emission. To evaluate its feasibility, I developed the NL-SIM reconstruction algorithm and conducted numerical experiments to simulate the optimal results achievable with our confocal microscope.
+{% endcomment %}
 
 >![SIM simulation](/assets/analytics/sim_simulation.png)
->*The NL-SIM algorithm enhances image resolution by extracting information at higher spatial frequencies, analyzing a series of confocal images obtained with patterned illumination. This technique has been shown to perform effectively with upconversion nanoparticles.*
+>*The NL-SIM algorithm enhances image resolution by extracting information at higher spatial frequencies, starting from a series of confocal images obtained with patterned illumination. This technique has been shown to perform effectively with upconversion nanoparticles.*
 {: style="width: 70%; font-size: 0.9rem;"}
 
 Among the adopted techniques:
@@ -115,9 +121,9 @@ Among the adopted techniques:
 
 Regularly monitoring the energy usage is an effective way to save money and improve efficiency. A detailed analysis of the consumption data can help optimise the electricity usage to more cost-effective time-of-use rates and can also identify potential issues with electric appliances before they develop into more serious problems.
 
-Below is a comparison of two different energy plans based on average annual consumption, which clearly highlights the best option. This breakdown also aids in making informed decisions about sustainability and transitioning to cleaner energy.
+Below is a comparison of two different energy plans based on average annual consumption, helping identify the most convenient option between energy providers.
 
->![Estimation of electricity bill](/assets/analytics/electricity_bill.png)
+>![Estimation of electricity bill](/assets/analytics/electricity_bill.PNG)
 >*Comparison of two time-of-use plans based on the average monthly energy consumption of a household over several years, categorized into different time-of-use tiers.*
 {: style="width: 80%; font-size: 0.9rem;"}
 
