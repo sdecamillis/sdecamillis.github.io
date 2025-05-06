@@ -90,15 +90,16 @@ toc_sticky: true
 <i class="fas fa-chart-line" style="margin: 10px;"></i>
 **Analysis**
 - Signal processing: time-frequency analysis, spectral decomposition, filtering techniques, feature extraction.
-- Statistics: multivariate analysis, sampling techniques, hypothesis testing, principal component analysis, regression analysis, predictive modelling.
+- Statistics: multivariate analysis, sampling techniques, hypothesis testing, principal component analysis, regression analysis, predictive modelling
+- Machine learning: linear regression, image classification
 - Modelling: nonlinear systems, finite-element analysis.
 
 <i class="fas fa-tools" style="margin: 10px;"></i>
 **Instrumentation:**
 -	Optics: Pulsed and continuous-wave lasers, polarisation control, harmonic generation, chirped pulse compensation, interferometry, spectral analysis, single-photon detection, fibre fusion splicing.
--	Imaging: confocal microscopy, optical-based super-resolution imaging, optical coherent tomography, transmission tomography, tunnelling electron microscopy.
+-	Imaging: confocal microscopy, optical-based super-resolution imaging, optical coherent tomography, transmission imaging, tunnelling electron microscopy.
 -	Instrumentation for ultra-high vacuum and cryogenic conditions.
-- Analog/digital signal generation and processing.
+- Analog/digital signal generation, signal conditioning.
 
 
 <i class="fas fa-briefcase" style="margin: 10px;"></i>

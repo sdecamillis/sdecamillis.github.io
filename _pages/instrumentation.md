@@ -111,7 +111,7 @@ As part of this project, I was responsible for developing and testing various op
 {: style="width: 55%; font-size: 0.9rem;"}
 
 Links:
-- T. Pichon et al., *Quantix and Intrapix: test benches dedicated to quantumbefficiency measurement and intra-pixel response of detectors from VIS to LWIR*, [Proc. of SPIE 12191, 121912I (2022)](https://doi.org/10.1117/12.2630232)
+- T. Pichon et al., *Quantix and Intrapix: test benches dedicated to quantum efficiency measurement and intra-pixel response of detectors from VIS to LWIR*, [Proc. of SPIE 12191, 121912I (2022)](https://doi.org/10.1117/12.2630232)
 
 
 {% comment %}
