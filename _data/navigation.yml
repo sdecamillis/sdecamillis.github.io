@@ -8,7 +8,9 @@ main:
     url: /instrumentation/
   - title: "Analytics"
     url: /analytics/
+  - title: "Mapping"
+    url: /mapping/
   - title: "Credentials"
     url: /credentials/
-  - title: "CV"
-    url: /assets/CV_DeCamillis.pdf
+#  - title: "CV"
+#    url: /assets/CV_DeCamillis.pdf

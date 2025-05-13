@@ -33,6 +33,13 @@ feature_row:
     url: "analytics"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+  - image_path: /assets/feature_mapping.jpg
+    alt: "Mapping"
+    title: "Mapping"
+    excerpt: "Visualizing spatial data to uncover trends and guide strategic planning."
+    url: "mapping"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
 Welcome to my website!
