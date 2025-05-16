@@ -119,9 +119,11 @@
             </li><li class="masthead__menu-item">
               <a href="/instrumentation/">Instrumentation</a>
             </li><li class="masthead__menu-item">
-              <a href="/credentials/">Credentials</a>
+              <a href="/analytics/">Analytics</a>
             </li><li class="masthead__menu-item">
-              <a href="/assets/CV_DeCamillis.pdf">CV</a>
+              <a href="/mapping/">Mapping</a>
+            </li><li class="masthead__menu-item">
+              <a href="/credentials/">Credentials</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -164,7 +166,7 @@
       
         <p>
         
-          <a href="/assets/Guccione_CV.pdf" class="btn btn--light-outline btn--large">Download CV</a>
+          <a href="/assets/CV_DeCamillis.pdf" class="btn btn--light-outline btn--large">Download CV</a>
         
       
     </div>
@@ -317,21 +319,44 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-gear"></i> Analytics</h4></header>
-              <ul class="toc__menu"><li><a href="#correcting-for-optical-distortions">Correcting for optical distortions</a></li><li><a href="#ultrafast-charge-oscillation">Ultrafast charge oscillation</a></li><li><a href="#modelling-imaging-performance">Modelling imaging performance</a></li><li><a href="#automated-3d-data-visualisation">Automated 3D data visualisation</a></li><li><a href="#solar-energy-monitoring">Solar energy monitoring</a></li></ul>
+              <ul class="toc__menu"><li><a href="#composite-3d-visualisation">Composite 3D visualisation</a></li><li><a href="#correcting-for-optical-distortions">Correcting for optical distortions</a></li><li><a href="#ultrafast-change-oscillations">Ultrafast change oscillations</a></li><li><a href="#modelling-imaging-performance">Modelling imaging performance</a></li><li><a href="#solar-energy-monitoring">Solar energy monitoring</a></li></ul>
 
             </nav>
           </aside>
         
-        <h3 id="correcting-for-optical-distortions">Correcting for optical distortions</h3>
+        <h3 id="composite-3d-visualisation">Composite 3D visualisation</h3>
+
+<p><img src="https://img.shields.io/badge/ParaView-blue?style=plastic&amp;amp" alt="ParaView" />
+<img src="https://img.shields.io/badge/Python-fff?logo=python&amp;logoColor=3776AB" alt="Python" /></p>
+
+<p>The project of <a href="/instrumentation/#3d-optical-coherent-tomography">volumetric inclusion mapping of crystals</a> at the ANU is based on a multi-view scanning approach, which involves calculating multiple layers to enhance feature extraction. For a reliable data review, it is crucial to effectively visualize these layers across all individual 3D views.</p>
+
+<p>To accomplish this, I developed a pipeline that selects different layers, applies pre-defined masks, visualizes the data using effective colormaps, and captures screenshots from the most appropriate angles. This data visualization was enabled by utilising the well-documented Python API of Paraview software.</p>
+
+<blockquote style="width: 70%; font-size: 0.9rem;">
+  <p><img src="/assets/analytics/crystal_crack.png" alt="SIM simulation" />
+<em>3D visualisation of the optical rays and amplitude, with the application of a mask to analyse the internal plane feature of the crystal.</em></p>
+</blockquote>
+
+<p>Among the adopted techniques:</p>
+<ul>
+  <li>Data manipulation and filtering</li>
+  <li>Multi-dimensional data visualisation</li>
+  <li>Automated pipeline through the Python-based API</li>
+</ul>
+
+<h3 id="correcting-for-optical-distortions">Correcting for optical distortions</h3>
 
 <p><img src="https://img.shields.io/badge/Python-fff?logo=python&amp;logoColor=3776AB" alt="Python" />
 <img src="https://img.shields.io/badge/NumPy-aaa?logo=numpy&amp;logoColor=013243" alt="NumPy" />
 <img src="https://img.shields.io/badge/SciPy-aaa?logo=scipy&amp;logoColor=8CAAE6" alt="SciPy" />
 <img src="https://img.shields.io/badge/Zemax-fff?logo=ansys&amp;logoColor=FFB71B" alt="Zemax" /></p>
 
-<p>Our Optical Coherent Tomography system utilizes galvanometer mirrors as fast laser scanning solution, which can introduce optical distortions when extended to large fields of view. To minimize image degradation caused by these distortions, I developed an optical model focusing on two key components: distortion along the direction of laser propagation (axial distortion) and ray tilt (telecentricity).</p>
+<p>Optical systems are often inherently subject to distortions, which can compromise the accuracy of the instrument. This was the case with the <a href="/instrumentation/#3d-optical-coherent-tomography">3D scanning systems</a> I developed at the ANU. To mitigate these effects, the only practical solution was to model the distortion and apply a correction algorithm in data post-processing.</p>
 
-<p>I conducted numerical simulations using Zemax software and automated the process through the Python-based API. Then, by applying a non-linear regression to the experimental data, I validated the accuracy of the model and determined the precise parameters.</p>
+<p>I created several numerical simulations of our scanning system under various conditions by using the Zemax software, and automated the execution with the Python-based API. After analyzing the simulation results, I developed an optical model that focused on two key factors: distortion along the direction of laser propagation (axial distortion) and ray tilt (telecentricity).</p>
+
+<p>Finally, by applying non-linear regression to the experimental data, I validated the model’s accuracy, which was then used to correct the optical distortions.</p>
 
 <blockquote style="width: 80%; font-size: 0.9rem;">
   <p><img src="/assets/analytics/axial_distortion.png" alt="Optical distortion and correction model" />
@@ -342,20 +367,21 @@
 <ul>
   <li>Linear and non-linear regression</li>
   <li>Model validation</li>
+  <li>Automated pipeline through the Python-based API</li>
 </ul>
 
-<h3 id="ultrafast-charge-oscillation">Ultrafast charge oscillation</h3>
+<h3 id="ultrafast-change-oscillations">Ultrafast change oscillations</h3>
 
 <p><img src="https://img.shields.io/badge/MATLAB%C2%AE-orange?style=plastic&amp;amp" alt="Matlab" /></p>
 
-<p>Ultrafast mass spectrometry experiments produce large datasets of time-dependent molecular fragmentation patterns. The analysis requires an initial step of data preparation, involving the integration of each fragment peak from the mass spectrum after background subtraction, followed by averaging over thousands of acquisitions at each time delay.</p>
+<p>A rigorous statistical analysis of the data is often necessary to confirm the presence of a pattern beyond the experimental uncertainty. For example, such an analysis was essential in my PhD project to validate the first observation of <a href="/research/#attosecond-charge-migration">quantum charge oscillations in molecules</a>.</p>
 
-<p>Tipically, the fragmentation yield exhibits two components: a resonant production near zero delay and an exponential decay at later delays. This behavior can be modeled using a convolution function that combines a Gaussian and an exponential curve. The optimal fit for the experimental data was determined using a multi-variable regression approach.</p>
+<p>The typical fragmentation signal observed in this experiment features a resonant peak near zero delay, followed by an exponential decay at later times. This behavior can be accurately modeled using a convolution function that combines a Gaussian distribution with an exponential decay. The optimal fit to the experimental data was obtained through a multi-variable regression approach.</p>
 
-<p>In experiments involving attosecond-driven charge dynamics, a distinct oscillation in the fragmentation signal is observed at positive delays (see figure). This oscillation becomes clearer after subtracting the best-fitting convolution function. The quantum beating is not characterised by a constant period. Time-gated spectral analysis revealed that the oscillation begins with two frequency components and ultimately converges to a dominant frequency of 0.23 PHz, corresponding to a period of about 4 femtoseconds.</p>
+<p>Precisely characterizing the slow fragmentation dynamics was critical for isolating the faster and weaker periodic signal. The figure below illustrates the oscillatory pattern that becomes clearly visible after subtracting the best-fit convolution curve from the raw data. To further analyze the quantum beating phenomenon, I performed a time-gated spectral analysis, which uncovered a variable oscillatory trend with a dominant frequency component at 0.23 PHz — equivalent to a period of approximately 4 femtoseconds.</p>
 
 <blockquote style="width: 70%; font-size: 0.9rem;">
-  <p><img src="/assets/analytics/phe_charge_oscillation.png" alt="Time-resolved charge oscillation" />
+  <p><img src="/assets/analytics/phe_charge_oscillation.PNG" alt="Time-resolved charge oscillation" />
 <em>Quantum oscillations of the electron density are observed in the fragmentation yield, after accounting for the slower molecular dynamics using the Gaussian-exponential convolution function. At longer time delays, the charge oscillations exhibit a dominant frequency of 0.23 PHz.</em></p>
 </blockquote>
 
@@ -370,38 +396,19 @@
 <p><img src="https://img.shields.io/badge/Python-fff?logo=python&amp;logoColor=3776AB" alt="Python" />
 <img src="https://img.shields.io/badge/NumPy-aaa?logo=numpy&amp;logoColor=013243" alt="NumPy" /></p>
 
-<p>Non-linear Structured Illumination Microscopy (NL-SIM) relies on the interference of a series of patterned light applied to a sample, enabling the extraction of information at higher spatial frequencies and thus allowing for image reconstruction with enhanced resolution.</p>
+<p>Numerical modelling is a powerful tool for evaluating system performance and supporting informed decision-making. While working at Macquarie University on super-resolution imaging, I was asked whether the <a href="/research/#non-linear-response-of-lanthanide-nanoparticles">lanthanide nanoparticles</a> developed by our research group were suitable for a technique called Non-linear Structured Illumination Microscopy (NL-SIM). NL-SIM enhances image resolution by extracting high-frequency spatial information through extensive experimental data and a well-defined data processing pipeline.</p>
 
-<p>NL-SIM is expected to be a suitable technique for upconversion nanoparticles, considering their strong non-linear emission. To evaluate its feasibility, I developed the NL-SIM reconstruction algorithm and conducted numerical experiments to simulate the optimal results achievable with our confocal microscope.</p>
+<p>To address this question, I simulated experimental data using an estimated point spread function of <a href="/instrumentation/#dual-beam-confocal-microscope">our microscope</a> and implemented the NL-SIM reconstruction algorithm based on established methods in the scientific literature. This approach confirmed that our nanoparticles were suitable for enabling NL-SIM and demonstrated a fourfold improvement in resolution under the experimental conditions of our imaging system.</p>
 
 <blockquote style="width: 70%; font-size: 0.9rem;">
   <p><img src="/assets/analytics/sim_simulation.png" alt="SIM simulation" />
-<em>The NL-SIM algorithm enhances image resolution by extracting information at higher spatial frequencies, analyzing a series of confocal images obtained with patterned illumination. This technique has been shown to perform effectively with upconversion nanoparticles.</em></p>
+<em>The NL-SIM algorithm enhances image resolution by extracting information at higher spatial frequencies, starting from a series of confocal images obtained with patterned illumination. This technique has been shown to perform effectively with upconversion nanoparticles.</em></p>
 </blockquote>
 
 <p>Among the adopted techniques:</p>
 <ul>
   <li>2D Fourier transform</li>
   <li>Spectral domain manipulation</li>
-</ul>
-
-<h3 id="automated-3d-data-visualisation">Automated 3D data visualisation</h3>
-
-<p><img src="https://img.shields.io/badge/ParaView-blue?style=plastic&amp;amp" alt="ParaView" />
-<img src="https://img.shields.io/badge/Python-fff?logo=python&amp;logoColor=3776AB" alt="Python" /></p>
-
-<p>Our volumetric inclusion mapping of crystals is based on a multi-view scanning approach, which involves calculating multiple layers to enhance feature extraction. For a reliable data review, it is crucial to effectively visualize these layers across all individual 3D views.</p>
-
-<p>To accomplish this, I developed a pipeline that selects different layers, applies pre-defined masks, visualizes the data using effective colormaps, and captures screenshots from the most appropriate angles. This data visualization was enabled by the well-documented Python API of Paraview software.</p>
-
-<blockquote style="width: 70%; font-size: 0.9rem;">
-  <p><img src="/assets/analytics/crystal_crack.png" alt="SIM simulation" />
-<em>3D visualisation of the optical rays and amplitude, with the application of a mask to analyse the internal plane feature of the crystal.</em></p>
-</blockquote>
-
-<p>Among the adopted techniques:</p>
-<ul>
-  <li>Multi-dimensional data visualisation</li>
 </ul>
 
 <h3 id="solar-energy-monitoring">Solar energy monitoring</h3>
@@ -411,10 +418,10 @@
 
 <p>Regularly monitoring the energy usage is an effective way to save money and improve efficiency. A detailed analysis of the consumption data can help optimise the electricity usage to more cost-effective time-of-use rates and can also identify potential issues with electric appliances before they develop into more serious problems.</p>
 
-<p>Below is a comparison of two different energy plans based on average annual consumption, which clearly highlights the best option. This breakdown also aids in making informed decisions about sustainability and transitioning to cleaner energy.</p>
+<p>Below is a comparison of two different energy plans based on average annual consumption, helping identify the most convenient option between energy providers.</p>
 
 <blockquote style="width: 80%; font-size: 0.9rem;">
-  <p><img src="/assets/analytics/electricity_bill.png" alt="Estimation of electricity bill" />
+  <p><img src="/assets/analytics/electricity_bill.PNG" alt="Estimation of electricity bill" />
 <em>Comparison of two time-of-use plans based on the average monthly energy consumption of a household over several years, categorized into different time-of-use tiers.</em></p>
 </blockquote>
 
