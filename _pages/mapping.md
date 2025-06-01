@@ -38,7 +38,7 @@ References:
 ![QGIS](https://img.shields.io/badge/QGIS-589632?logo=qgis&logoColor=fff)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
 
-For planning off-trail hikes and practicing map navigation, I create my own high-resolution topographic maps. This approach allows me to include the latest data on vegetation coverage and wooded areas. I also utilise Digital Elevation Model (DEM) raster tiles to generate hillshade effects and contour lines, enhancing the map's detail and accuracy.
+For planning off-trail hikes and practicing map navigation, I create high-resolution topographic maps with the my python module [qgis_nsw_act_topo](https://github.com/sdecamillis/qgis_nsw_act_topo). This tool allows for the automated generation of maps of a specific area of interest, with the possibility to include the latest data on vegetation coverage and wooded areas. I also utilise Digital Elevation Model (DEM) raster tiles to generate hillshade effects and contour lines, enhancing the map's detail and accuracy.
 
 >[![Devils Gap hike map](/assets/mapping/Devils_Gap_hike_detail.jpg)](/assets/mapping/Devils_Gap_hike.jpg)
 >*Detail of a topographic map of the Tidbinbilla Nature Reserve with vegetation coverage and hillshade effect, suitable for map and compass navigation. The purple line represents my latest hike from the Devil's Gap to Billy Billy Rocks.*
