@@ -4,12 +4,12 @@ main:
     url: /
   - title: "Research"
     url: /research/
-  - title: "Instrumentation"
-    url: /instrumentation/
   - title: "Analytics"
     url: /analytics/
   - title: "Mapping"
     url: /mapping/
+  - title: "Instrumentation"
+    url: /instrumentation/
   - title: "Credentials"
     url: /credentials/
 #  - title: "CV"

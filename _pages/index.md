@@ -19,13 +19,6 @@ feature_row:
     url: "research"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/feature_instrumentation.jpg
-    alt: "Instrumentation"
-    title: "Instrumentation"
-    excerpt: "Developing advanced technologies to drive innovation and enhance capabilities."
-    url: "instrumentation"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
   - image_path: /assets/feature_analytics.jpg
     alt: "Analytics"
     title: "Analytics"
@@ -40,11 +33,18 @@ feature_row:
     url: "mapping"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+  - image_path: /assets/feature_instrumentation.jpg
+    alt: "Instrumentation"
+    title: "Instrumentation"
+    excerpt: "Developing advanced technologies to drive innovation and enhance capabilities."
+    url: "instrumentation"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
 Welcome to my website!
 
-I’m an optical physicist, fascinated by everything from optics and nanoscale imaging to numerical modelling and data visualisation. 
+I’m a physicist, with expertise in imaging technologies, statistical analysis of data, and mapping.
 
 I like to explore a wide range of scientific fields, and when I’m not immersed in research and development, I’m often out hiking, climbing, or orienteering. 
 

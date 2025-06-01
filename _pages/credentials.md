@@ -27,13 +27,16 @@ toc_sticky: true
 ![Matlab](https://img.shields.io/badge/MATLAB%C2%AE-orange)
 ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=000)
 ![Fortran](https://img.shields.io/badge/Fortran-734F96?logo=fortran&logoColor=fff)
-* Control software: &ensp; 
-![LabVIEW](https://img.shields.io/badge/LabVIEW-FFDB00?logo=labview&logoColor=000) 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
 * Image processing: &ensp; 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
 ![ImageJ](https://img.shields.io/badge/ImageJ-04b9bf?logo=imagej&logoColor=fff)
 ![ParaView](https://img.shields.io/badge/ParaView-9F2121)
+* Geographic Information Systems: &ensp;
+![QGIS](https://img.shields.io/badge/QGIS-589632?logo=qgis&logoColor=fff)
+![ArcGIS](https://img.shields.io/badge/ArcGIS-2C7AC3?logo=arcgis&logoColor=fff)
+* Control software: &ensp; 
+![LabVIEW](https://img.shields.io/badge/LabVIEW-FFDB00?logo=labview&logoColor=000) 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
 * Optical design: &ensp; 
 ![Zemax](https://img.shields.io/badge/Zemax-FFB71B?logo=ansys&logoColor=000)
 * Mechanical design: &ensp; 
@@ -50,9 +53,6 @@ toc_sticky: true
 * Project management: &ensp;
 ![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=fff)
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D?logo=confluence&logoColor=fff)
-* Geographic Information Systems: &ensp;
-![QGIS](https://img.shields.io/badge/QGIS-589632?logo=qgis&logoColor=fff)
-![ArcGIS](https://img.shields.io/badge/ArcGIS-2C7AC3?logo=arcgis&logoColor=fff)
 {% comment %}
 * Modelling and data analysis: &ensp; 
 ![Python](https://img.shields.io/badge/Python-fff?logo=python&logoColor=3776AB)
@@ -89,16 +89,17 @@ toc_sticky: true
 
 <i class="fas fa-chart-line" style="margin: 10px;"></i>
 **Analysis**
-- Signal processing: time-frequency analysis, spectral decomposition, filtering techniques, feature extraction.
-- Statistics: multivariate analysis, sampling techniques, hypothesis testing, principal component analysis, regression analysis, predictive modelling
-- Machine learning: linear regression, image classification
+- Geospatial: geometry manipulation, spatial relationship, data filtering, custom symbology and labelling, Model Builder, scripting.
+- Statistics: multivariate analysis, sampling techniques, hypothesis testing, principal component analysis, regression analysis, predictive modelling.
+- Machine learning: linear regression, image classification.
 - Modelling: nonlinear systems, finite-element analysis.
+- Signal processing: time-frequency analysis, spectral decomposition, filtering techniques, feature extraction.
 
 <i class="fas fa-tools" style="margin: 10px;"></i>
 **Instrumentation:**
--	Optics: Pulsed and continuous-wave lasers, polarisation control, harmonic generation, chirped pulse compensation, interferometry, spectral analysis, single-photon detection, fibre fusion splicing.
--	Imaging: confocal microscopy, optical-based super-resolution imaging, optical coherent tomography, transmission imaging, tunnelling electron microscopy.
--	Instrumentation for ultra-high vacuum and cryogenic conditions.
+- Optics: Pulsed and continuous-wave lasers, polarisation control, harmonic generation, chirped pulse compensation, interferometry, spectral analysis, single-photon detection, fibre fusion splicing.
+- Imaging: confocal microscopy, optical-based super-resolution imaging, optical coherent tomography, transmission imaging, tunnelling electron microscopy.
+- Instrumentation for ultra-high vacuum and cryogenic conditions.
 - Analog/digital signal generation, signal conditioning.
 
 
